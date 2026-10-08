@@ -58,6 +58,7 @@ var userRoles = Request.Headers["x-user-roles"].FirstOrDefault()?.Split(',');
 ### Key Components by Category
 #### Core Infrastructure
 - **briggs-orchestrator**: React shell with MFA via Keycloak
+- **briggs-admin-ochestrator**: Admin React shell with MFA via Keycloak
 - **briggs-gateway-api**: KrakenD gateway (JWT validation point)
 - **auth**: Keycloak identity provider with 2FA
 - **briggsbase**: System configuration API

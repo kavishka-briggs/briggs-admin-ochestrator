@@ -7,7 +7,7 @@ import { orchConfigPlugin } from './orchConfigPlugin'
 export default defineConfig({
   plugins: [orchConfigPlugin(), react(), tailwindcss(), federation(
     {
-      name: 'Orchestrator',
+      name: 'BriggsAdminOrchestrator',
       remotes: {
         // Need the below to avoid sharescope error in deployment
         Remote: "",

@@ -58,7 +58,7 @@ This folder contains the complete ISO 27001 information security documentation s
 ## 🎯 **System Coverage**
 
 ### Briggs System Components
-- **Core Infrastructure** - briggs-orchestrator, briggs-gateway-api, auth (Keycloak), briggsbase
+- **Core Infrastructure** - briggs-orchestrator, briggs-admin-ochestrator, briggs-gateway-api, auth (Keycloak), briggsbase
 - **PTTN Microservices** - Projects, Onboarding, Crew, Planning, Forms APIs  
 - **Frontend Modules** - Microfrontends using module federation (React + TypeScript)
 - **System Components** - ClamAV security, CDC integration, File processing

@@ -131,7 +131,7 @@
 - [ ] **Log Analysis**: Regular review and analysis of logs
 
 **Briggs System Logging**:
-- [ ] **Frontend Application Logs**: briggs-orchestrator and all microfrontend modules user interactions logged
+- [ ] **Frontend Application Logs**: briggs-orchestrator, briggs-admin-ochestrator, and all microfrontend modules user interactions logged
 - [ ] **Database Changes**: Personal data modifications tracked via briggslogging service with Entity Framework change tracking
 - [ ] **API Access**: KrakenD gateway and all backend microservices API calls logged with IP addresses and requests
 - [ ] **Administrative Actions**: All admin actions logged via briggslogging service and attributed to users

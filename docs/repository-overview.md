@@ -35,7 +35,7 @@ Modules that provide essential functionality that is enabled by default for new 
 Extended functionality modules that can be enabled per domain.
 
 **Note**: Microfrontend modules (React-based frontend modules using module federation) are distributed across multiple categories:
-- **Core Infrastructure**: `briggs-orchestrator`, `briggs-orchestrator-mobile`, `briggs-modules-authentication` (catalog alias: `module-authenticator`)
+- **Core Infrastructure**: `briggs-orchestrator`, `briggs-admin-ochestrator`, `briggs-orchestrator-mobile`, `briggs-modules-authentication` (catalog alias: `module-authenticator`)
 - **Kickstarter Modules**: `module-onboarding`, `module-projectwizard`, `module-dashboardbasic` (GitHub: `modules-dashboardbasic`), `module-projectbasic`, `modules-crewbasic` (plugin_id `module-crewbasic`)
 - **Modules**: `modules-quartercompletion` (monorepo; plugin_id `module-quartercompletion`)
 
@@ -91,6 +91,14 @@ Extended functionality modules that can be enabled per domain.
   - Centralized authentication management
   - Adaptive routing and navigation
   - State management with Zustand
+
+#### `briggs-admin-ochestrator`
+- **Type**: Admin Microfrontend Shell
+- **Technology**: React + Vite + Module Federation
+- **Purpose**: Admin-specific application shell, separately named and deployed from `briggs-orchestrator`
+- **Dependencies**: Admin microfrontend modules, Keycloak, Gateway API
+- **Deployment**: Custom deployment workflow
+- **Documentation**: `docs/stack/react/react-orchestrator-architecture.md`
 
 #### `briggs-orchestrator-mobile`
 - **Type**: Field mobile application (not a Module Federation shell)
