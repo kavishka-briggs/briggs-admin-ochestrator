@@ -1,0 +1,90 @@
+{
+    "module_dashboardBasic": {
+        "dashboard_page": {
+            "heyThere": "Hey there,",
+            "hereIsWhatsHappening": "Here's what's happening in your Briggs+Walker account today.",
+            "overview": {
+                "title": "Overview",
+                "shifts": "Shifts",
+                "signups": "Signups",
+                "donationValue": "Donation Value",
+                "avgShiftValue": "Avg. Shift Value"
+            },
+            "quickActions": {
+                "title": "Quick Actions",
+                "manageProject": "Manage Project",
+                "manageCrew": "Manage Crew",
+                "startFundraising": "Start Fundraising",
+                "exportResults": "Export Results",
+                "fundraisingInstructions": "To start fundraising, download the Field App from the app store. Scan the link below with the device you want to use in the field or click the links at the bottom.",
+                "useCredentials": "Use your login credentials from this platform to sign in.",
+                "useWeb": "Use web interface",
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web"
+            },
+            "daily_activity": {
+                "title": "Daily activity",
+                "noActivity": "No activity yet",
+                "noActivityDescription": "Once your crew is added and active, you'll see updates here in real time.",
+                "shiftSignin": "{{crew}}-{{marketing}} has started their shift.",
+                "shiftClosed": "{{crew}}-{{marketing}} has finished their shift.",
+                "resultNew": "{{office}}-{{marketing}} made a new signup: {{description}}",
+                "timeline": {
+                    "yesterday": "Yesterday"
+                }
+            },
+            "planning": {
+                "title": "Planning",
+                "previousWeek": "Previous week",
+                "nextWeek": "Next week",
+                "noShiftScheduled": "No shift scheduled",
+                "setUpProject": "Set up your project and crew to start planning and assigning shifts on the calendar",
+                "crewAssigned": "Crew member assigned to a shift!",
+                "deleteShift": "Delete Shift",
+                "deleteShiftConfirm": "Are you sure you want to delete this shift? This action cannot be undone.",
+                "cancel": "Cancel",
+                "delete": "Delete",
+                "error": "Error occured! Please contact admin!",
+                "assignCrew": "Assign Crew",
+                "invalidProjectHeading": "Project not found!",
+                "invalidProjectDescription": "Please complete the project wizard to continue.",
+                "days": {
+                    "SUN": "SUN",
+                    "MON": "MON",
+                    "TUE": "TUE",
+                    "WED": "WED",
+                    "THU": "THU",
+                    "FRI": "FRI",
+                    "SAT": "SAT"
+                }
+            }
+        },
+        "addCrewModal": {
+            "title": "Add Crew Member",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "inviteEmailPreview": "Invite Email Preview",
+            "invitedTo": "You've been invited to Briggs+Walker",
+            "hi": "Hi",
+            "inviteBody": "You've been added as a crew member on Briggs+Walker. Tap below to set up your account and get started.",
+            "joinNow": "Join Now",
+            "cancel": "Cancel",
+            "invite": "Invite Crew Member",
+            "alreadyExists": "Crew member already exists",
+            "error": "An error occured. Please contact support"
+        },
+        "assignCrewModal": {
+            "title": "Assign Crew Member",
+            "selectCrew": "Select Crew Member",
+            "assign": "Assign",
+            "cancel": "Cancel",
+            "success": "Crew member assigned successfully!",
+            "alreadyAssigned": "A shift has already been assigned for the provided date",
+            "error": "An error occurred. Please try again.",
+            "addCrewMember": "Add Crew Member",
+            "searchPlaceholder": "Search"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "module_dashboardBasic": {
+        "dashboard_page": {
+            "heyThere": "Bonjour,",
+            "hereIsWhatsHappening": "Voici ce qui se passe aujourd'hui dans votre compte Briggs+Walker.",
+            "overview": {
+                "title": "Aperçu",
+                "shifts": "Postes",
+                "signups": "Inscriptions",
+                "donationValue": "Valeur des dons",
+                "avgShiftValue": "Valeur moyenne par poste"
+            },
+            "quickActions": {
+                "title": "Actions rapides",
+                "manageProject": "Gérer le projet",
+                "manageCrew": "Gérer l'équipe",
+                "startFundraising": "Démarrer la collecte de fonds",
+                "exportResults": "Exporter les résultats",
+                "fundraisingInstructions": "Pour commencer la collecte de fonds, téléchargez l'application Field depuis l'App Store. Scannez le lien ci-dessous avec l'appareil que vous souhaitez utiliser sur le terrain ou cliquez sur les liens en bas.",
+                "useCredentials": "Utilisez vos identifiants de cette plateforme pour vous connecter.",
+                "useWeb": "Utiliser l'interface web",
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web"
+            },
+            "daily_activity": {
+                "title": "Activité quotidienne",
+                "noActivity": "Aucune activité pour le moment",
+                "noActivityDescription": "Une fois votre équipe ajoutée et active, vous verrez ici les mises à jour en temps réel.",
+                "shiftSignin": "{{crew}}-{{marketing}} a commencé son poste.",
+                "shiftClosed": "{{crew}}-{{marketing}} a terminé son poste.",
+                "resultNew": "{{office}}-{{marketing}} a réalisé une nouvelle inscription : {{description}}",
+                "timeline": {
+                    "yesterday": "Hier"
+                }
+            },
+            "planning": {
+                "title": "Planification",
+                "previousWeek": "Semaine précédente",
+                "nextWeek": "Semaine suivante",
+                "noShiftScheduled": "Aucun poste planifié",
+                "setUpProject": "Configurez votre projet et votre équipe pour commencer à planifier et à attribuer des postes sur le calendrier",
+                "crewAssigned": "Membre de l'équipe assigné à un poste !",
+                "deleteShift": "Supprimer le poste",
+                "deleteShiftConfirm": "Êtes-vous sûr de vouloir supprimer ce poste ? Cette action est irréversible.",
+                "cancel": "Annuler",
+                "delete": "Supprimer",
+                "error": "Une erreur est survenue ! Veuillez contacter l'administrateur !",
+                "assignCrew": "Assigner l'équipe",
+                "invalidProjectHeading": "Projet introuvable !",
+                "invalidProjectDescription": "Veuillez compléter l'assistant de projet pour continuer.",
+                "days": {
+                    "SUN": "DIM",
+                    "MON": "LUN",
+                    "TUE": "MAR",
+                    "WED": "MER",
+                    "THU": "JEU",
+                    "FRI": "VEN",
+                    "SAT": "SAM"
+                }
+            }
+        },
+        "addCrewModal": {
+            "title": "Ajouter un membre de l'équipe",
+            "firstName": "Prénom",
+            "lastName": "Nom de famille",
+            "email": "Adresse e-mail",
+            "inviteEmailPreview": "Aperçu de l'e-mail d'invitation",
+            "invitedTo": "Vous avez été invité sur Briggs+Walker",
+            "hi": "Bonjour",
+            "inviteBody": "Vous avez été ajouté comme membre de l'équipe sur Briggs+Walker. Appuyez ci-dessous pour configurer votre compte et commencer.",
+            "joinNow": "Rejoindre maintenant",
+            "cancel": "Annuler",
+            "invite": "Inviter un membre de l'équipe",
+            "alreadyExists": "Le membre de l'équipe existe déjà",
+            "error": "Une erreur est survenue. Veuillez contacter le support"
+        },
+        "assignCrewModal": {
+            "title": "Assigner un membre de l'équipe",
+            "selectCrew": "Sélectionner un membre de l'équipe",
+            "assign": "Assigner",
+            "cancel": "Annuler",
+            "success": "Membre de l'équipe assigné avec succès !",
+            "alreadyAssigned": "Un poste a déjà été assigné pour la date fournie.",
+            "error": "Une erreur est survenue. Veuillez réessayer.",
+            "addCrewMember": "Ajouter un membre de l'équipe",
+            "searchPlaceholder": "Rechercher"
+        }
+    }
+}

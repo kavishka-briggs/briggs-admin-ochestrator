@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Datum",
+            "crewMember": "Bemanningslid",
+            "loggedInOut": "Ingeklokt / Uitgeklokt",
+            "score": "Score",
+            "shiftEfficiency": "Shift efficiëntie",
+            "scorePerHour": "score per uur",
+            "shifts": "Shifts",
+            "allProjects": "Alle projecten",
+            "projectDetails": "Projectdetails",
+            "exportResults": "Resultaten exporteren",
+            "previewProject": "Projectvoorbeeld",
+            "allCrewMembers": "Alle bemanningsleden",
+            "search": "Zoeken",
+            "noCrewMembersFound": "Geen bemanningsleden gevonden"
+        },
+        "all_projects_page": {
+            "title": "Alle projecten",
+            "searchPlaceholder": "Projecten zoeken...",
+            "projectName": "Projectnaam",
+            "projectCode": "Projectcode",
+            "campaignCode": "Campagnecode",
+            "domainCode": "Domeincode",
+            "quickActions": "Snelle acties",
+            "shifts": "Shifts",
+            "forms": "Formulieren"
+        },
+        "export_results": {
+            "title": "Resultaten exporteren",
+            "exportPeriod": "Exportperiode",
+            "cancel": "Annuleren",
+            "export": "Exporteren",
+            "viewExportHistory": "Bekijk exportgeschiedenis",
+            "description": "Bekijk en beheer uw exportresultaten",
+            "close": "Sluiten",
+            "exportSoon": "Uw export is binnenkort gereed"
+        },
+        "exportHistory": {
+            "title": "Exportgeschiedenis",
+            "results": "resultaten",
+            "exportPeriod": "Exportperiode",
+            "template": "Sjabloon",
+            "download": "Download CSV",
+            "downloadExpired": "Download verlopen",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Kan downloadlink voor export niet genereren. Probeer het later opnieuw."
+        },
+        "previewModal": {
+            "title": "Formuliervoorbeeld",
+            "context": "Context",
+            "contextDescription": "Selecteer waarden om het formulier te bekijken.",
+            "resetContext": "Context resetten",
+            "location": "Locatie",
+            "channel": "Kanaal",
+            "domain": "Domein",
+            "office": "Kantoor",
+            "autoUpdateInfo": "Het formuliervoorbeeld wordt automatisch bijgewerkt op basis van de geselecteerde contextwaarden.",
+            "formVersion": "Formulierversie",
+            "selectOption": "Selecteer...",
+            "noOptions": "Geen opties beschikbaar",
+            "noLocations": "Geen locaties beschikbaar",
+            "published": "Gepubliceerd",
+            "searchLocation": "Locatie zoeken...",
+            "projectResult": "Projectresultaat",
+            "errorLoadContextDetails": "Kan contextgegevens niet laden. Probeer het opnieuw.",
+            "errorLoadLocationContext": "Kan locatiecontext niet laden. Probeer het opnieuw.",
+            "errorLoadAgencyOptions": "Kan bureau-opties niet laden. Probeer het opnieuw.",
+            "errorLoadOfficeOptions": "Kan kantooropties niet laden. Probeer het opnieuw.",
+            "errorLoadProjectResults": "Kan projectresultaten niet laden. Probeer het opnieuw.",
+            "errorLoadDomainProjects": "Kan domeinprojecten niet laden. Probeer het opnieuw.",
+            "errorSearchLocations": "Kan locaties niet zoeken. Probeer het opnieuw."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Formulieren",
+            "projects": "Projecten",
+            "forms": "Formulieren",
+            "selectForm": "Formulier selecteren",
+            "noFormsFound": "Geen formulieren gevonden.",
+            "newVersion": "Nieuwe versie",
+            "description": "Beheer de versies van het geselecteerde formulier. U kunt een versie bekijken of publiceren om deze actief te maken.",
+            "version": "Versie",
+            "createdAt": "Aangemaakt op",
+            "published": "Gepubliceerd",
+            "actions": "Acties",
+            "preview": "Voorbeeld",
+            "publish": "Publiceren"
+        }
+    }
+}

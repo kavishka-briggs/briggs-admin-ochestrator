@@ -1,0 +1,20 @@
+name: EU - Deploy Plugin to PROD
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: briggs-walker/plugin-deploy/.github/workflows/frontend-deploy-eu.yaml@main
+    with:
+      repository: ${{ github.event.repository.name }}
+      branch: main
+      
+    secrets:
+      ENVFILE_EU: ${{ secrets.FRONTEND_ENVFILE_EU }}
+      CROSSREPO_PAT: ${{ secrets.CROSSREPO_PAT }}
+      ACR_ENDPOINT_PROD: ${{ secrets.ACR_ENDPOINT_PROD }}
+      PULLSECRET_EU: ${{ secrets.PULLSECRET_EU }}
+      AZURE_CREDENTIALS_EU: ${{ secrets.AZURE_CREDENTIALS_EU }}
+      RESOURCE_GROUP_EU: ${{ secrets.RESOURCE_GROUP_EU }}
+      CLUSTER_NAME_EU: ${{ secrets.CLUSTER_NAME_EU }}

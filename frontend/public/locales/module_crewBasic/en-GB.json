@@ -1,0 +1,35 @@
+{
+    "modules_crewBasic": {
+        "crewPage": {
+            "title": "Crew Management",
+            "description": "Manage your crew members here.",
+            "addCrewMember": "Add Crew Member",
+            "crewListEmpty": "No crew members found.",
+            "name": "Name",
+            "lastActivity": "Last Activity",
+            "nextShift": "Next Shift",
+            "average": "Average",
+            "averageTooltip": "Average number of signups during last 5 shifts",
+            "notPlanned": "Not planned",
+            "onShift": "On shift",
+            "expected": "Expected",
+            "operations": "Operations"
+        },
+        "addCrewModal": {
+            "title": "Add Crew Member",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "inviteEmailPreview": "Invite Email Preview",
+            "invitedTo": "You've been invited to Briggs+Walker",
+            "hi": "Hi",
+            "inviteBody": "You've been added as a crew member on Briggs+Walker. Tap below to set up your account and get started.",
+            "joinNow": "Join Now",
+            "cancel": "Cancel",
+            "invite": "Invite Crew Member",
+            "alreadyExists": "Crew member already exists",
+            "error": "An error occured. Please contact support",
+            "success": "Crew member invited!"
+        }
+    }
+}

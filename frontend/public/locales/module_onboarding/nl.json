@@ -1,0 +1,105 @@
+{
+    "module_onboarding": {
+        "accountCreatingPage": {
+            "almostThere": "Bijna klaar...",
+            "yourAccountIsBeingCreated": "Je account wordt aangemaakt.",
+            "logoutButtonLabel": "Afmelden"
+        },
+        "onboardingPage": {
+            "backButtonLabel": "Terug",
+            "continueButtonLabel": "Doorgaan",
+            "createAccountButtonLabel": "Account aanmaken",
+            "organizationAlreadyExists": "Een organisatie met deze naam bestaat al. Kies een andere naam.",
+            "errorWhileUpdatingUserInfo": "Er is een fout opgetreden bij het bijwerken van de gebruikersinformatie. Probeer het later opnieuw.",
+            "errorWhileSettingSignature": "Er is een fout opgetreden bij het instellen van uw handtekening. Probeer het later opnieuw.",
+            "errorWhileCreatingOrganization": "Er is een fout opgetreden bij het maken van uw organisatie. Probeer het later opnieuw.",
+            "gettingToKnowYou": {
+                "gettingToKnowYou": "Laten we je leren kennen",
+                "language": "Taal",
+                "firstName": "Voornaam",
+                "lastName": "Achternaam",
+                "mobileNumber": "Mobiel nummer",
+                "explanationOrReasonWhyWeAskForThis": "We hebben je telefoonnummer nodig om snel urgente zaken op te lossen die te complex of tijdsgevoelig zijn voor e-mail.",
+                "jobTitle": "Functietitel",
+                "mobileNumberError": "Voer een geldig mobiel nummer in.",
+                "languageDropDown": {
+                    "dutch": "Nederlands",
+                    "english": "Engels",
+                    "french": "Frans",
+                    "german": "Duits",
+                    "italian": "Italiaans",
+                    "portuguese": "Portugees",
+                    "spanish": "Spaans"
+                }
+            },
+            "companyOnboarding": {
+                "typeHerePlaceholder": "Type hier",
+                "tellUsAboutYourCompany": "Vertel ons over je bedrijf",
+                "companyName": "Bedrijfsnaam",
+                "companyNameUnavailableError": "Bedrijfsnaam is al in gebruik.",
+                "industry": "Branche",
+                "industryOptions": {
+                    "nonProfit": "Non-Profit",
+                    "agency": "Bureau",
+                    "other": "Overig"
+                },
+                "numberOfFundraisers": "Aantal fondsenwervers",
+                "legalEntityName": "Juridische naam",
+                "companyWebsite": "Bedrijfswebsite",
+                "companyWebsiteError": "Voer de bedrijfswebsite in met https://",
+                "companyCountry": "Land van het bedrijf",
+                "selectCountryLabel": "Selecteer een land",
+                "companyAddress": "Bedrijfsadres",
+                "chamberOfCommerceNumber": "KvK-nummer",
+                "country": {
+                    "germany": "Duitsland",
+                    "netherlands": "Nederland",
+                    "belgium": "België",
+                    "sweden": "Zweden",
+                    "luxembourg": "Luxemburg",
+                    "france": "Frankrijk",
+                    "denmark": "Denemarken",
+                    "spain": "Spanje",
+                    "ireland": "Ierland",
+                    "italy": "Italië",
+                    "unitedKingdom": "Verenigd Koninkrijk",
+                    "portugal": "Portugal"
+                },
+                "addressLine": "Adresregel",
+                "postalCode": "Postcode",
+                "city": "Stad",
+                "countryLabel": "Land"
+            },
+            "legalPage": {
+                "letsGo": "Laten we beginnen!",
+                "description": "We zijn verheugd dat je bij ons gaat fondsenwerven,\n\n laten we eerst het papierwerk afronden.",
+                "pleaseAgreeToTheFollowing": "Ga akkoord met het volgende:",
+                "legalSelection1": "Ik heb alle informatie correct ingevuld",
+                "legalSelection2": "Ik verklaar dat ik bevoegd ben om een account aan te maken namens dit bedrijf",
+                "legalSelection3": "Ik verklaar dat we alleen projecten uitvoeren voor partners die toestemming hebben gegeven",
+                "iAgreeToThe": "Ik ga akkoord met de",
+                "termsAndConditions": "Algemene Voorwaarden",
+                "privacyPolicy": "Privacybeleid",
+                "ofCompanyName": "van Briggs+Walker",
+                "legalSection4TagLine": "De Algemene Voorwaarden omvatten de gegevensverwerkingsovereenkomst en het beleid voor eerlijk gebruik"
+            }
+        },
+        "signup": {
+            "invalidEmail": "Ongeldig e-mailadres! Probeer het opnieuw!",
+            "emailExists": "E-mailadres bestaat al! Probeer het met een ander e-mailadres.",
+            "errorOccurred": "Er is een fout opgetreden bij het aanmaken van je account. Probeer het later opnieuw.",
+            "tooManyRequests": "Te veel verzoeken. Probeer het later opnieuw.",
+            "createAccountTitle": "Maak je gratis account aan",
+            "createAccountSubtitle": "De eenvoudigste manier om F2F-campagnes te runnen. Geen kosten, geen code.",
+            "emailLabel": "E-mailadres",
+            "emailPlaceholder": "jan@example.com",
+            "alreadyHaveAccount": "Heb je al een account? ",
+            "login": "Inloggen",
+            "youveGotMail": "Je hebt mail",
+            "emailSentTo": "Er is een e-mail gestuurd naar {{email}}.",
+            "clickLinkToConfirm": "Klik op de link om je account te bevestigen",
+            "comingSoon": "Binnenkort beschikbaar....",
+            "createAccountButton": "Maak een account aan"
+        }
+    }
+}

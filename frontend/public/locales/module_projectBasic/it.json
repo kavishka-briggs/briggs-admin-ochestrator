@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Data",
+            "crewMember": "Membro dell'equipaggio",
+            "loggedInOut": "Entrato / Uscito",
+            "score": "Punteggio",
+            "shiftEfficiency": "Efficienza del turno",
+            "scorePerHour": "punteggio per ora",
+            "shifts": "Turni",
+            "allProjects": "Tutti i progetti",
+            "projectDetails": "Dettagli del progetto",
+            "exportResults": "Esporta risultati",
+            "previewProject": "Anteprima progetto",
+            "allCrewMembers": "Tutti i membri dell'equipaggio",
+            "search": "Cerca",
+            "noCrewMembersFound": "Nessun membro dell'equipaggio trovato"
+        },
+        "all_projects_page": {
+            "title": "Tutti i progetti",
+            "searchPlaceholder": "Cerca progetti...",
+            "projectName": "Nome progetto",
+            "projectCode": "Codice progetto",
+            "campaignCode": "Codice campagna",
+            "domainCode": "Codice dominio",
+            "quickActions": "Azioni rapide",
+            "shifts": "Turni",
+            "forms": "Moduli"
+        },
+        "export_results": {
+            "title": "Esporta risultati",
+            "exportPeriod": "Periodo di esportazione",
+            "cancel": "Annulla",
+            "export": "Esporta",
+            "viewExportHistory": "Visualizza cronologia esportazioni",
+            "description": "Visualizza e gestisci i tuoi risultati di esportazione",
+            "close": "Chiudi",
+            "exportSoon": "La tua esportazione sarà pronta a breve"
+        },
+        "exportHistory": {
+            "title": "Cronologia esportazioni",
+            "results": "risultati",
+            "exportPeriod": "Periodo di esportazione",
+            "template": "Modello",
+            "download": "Scarica CSV",
+            "downloadExpired": "Download scaduto",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Impossibile generare il link per il download dell'esportazione. Riprova più tardi."
+        },
+        "previewModal": {
+            "title": "Anteprima Modulo",
+            "context": "Contesto",
+            "contextDescription": "Seleziona i valori per visualizzare il modulo.",
+            "resetContext": "Reimposta contesto",
+            "location": "Posizione",
+            "channel": "Canale",
+            "domain": "Dominio",
+            "office": "Ufficio",
+            "autoUpdateInfo": "L'anteprima del modulo si aggiornerà automaticamente in base ai valori di contesto selezionati.",
+            "formVersion": "Versione modulo",
+            "selectOption": "Seleziona...",
+            "noOptions": "Nessuna opzione disponibile",
+            "noLocations": "Nessuna posizione disponibile",
+            "published": "Pubblicato",
+            "searchLocation": "Cerca posizione...",
+            "projectResult": "Risultato del progetto",
+            "errorLoadContextDetails": "Impossibile caricare i dettagli del contesto. Riprova.",
+            "errorLoadLocationContext": "Impossibile caricare il contesto della posizione. Riprova.",
+            "errorLoadAgencyOptions": "Impossibile caricare le opzioni dell'agenzia. Riprova.",
+            "errorLoadOfficeOptions": "Impossibile caricare le opzioni dell'ufficio. Riprova.",
+            "errorLoadProjectResults": "Impossibile caricare i risultati del progetto. Riprova.",
+            "errorLoadDomainProjects": "Impossibile caricare i progetti di dominio. Riprova.",
+            "errorSearchLocations": "Impossibile cercare le posizioni. Riprova."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Moduli",
+            "projects": "Progetti",
+            "forms": "Moduli",
+            "selectForm": "Seleziona modulo",
+            "noFormsFound": "Nessun modulo trovato.",
+            "newVersion": "Nuova versione",
+            "description": "Gestisci le versioni del modulo selezionato. Puoi visualizzare in anteprima o pubblicare una versione per renderla attiva.",
+            "version": "Versione",
+            "createdAt": "Creato il",
+            "published": "Pubblicato",
+            "actions": "Azioni",
+            "preview": "Anteprima",
+            "publish": "Pubblica"
+        }
+    }
+}

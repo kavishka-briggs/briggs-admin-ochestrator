@@ -1,0 +1,25 @@
+# Briggs Orchestrator - local dev host aliases
+# Add these to your Windows hosts file (needs Administrator):
+#   C:\Windows\System32\drivers\etc\hosts
+#
+# They point the *.briggsdev.local aliases at the local CORS-stripping proxy
+# (docker service "mfe-cors-proxy" on port 4445). The frontend rewrites
+# *.briggsdev.tech -> *.briggsdev.local:4445 in dev, and the proxy forwards
+# each request to the matching real *.briggsdev.tech host with CORS headers.
+#
+# Quick add (run PowerShell as Administrator, from this folder):
+#   Get-Content .\hosts-entries.txt | Where-Object { $_ -notmatch '^\s*#' -and $_.Trim() } |
+#     Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts"
+#
+# Verify:
+#   Resolve-DnsName briggs-modules-authentication.briggsdev.local
+
+127.0.0.1 mfe.briggsdev.local
+127.0.0.1 briggs-modules-authentication.briggsdev.local
+127.0.0.1 module-projectwizard.briggsdev.local
+127.0.0.1 module-onboarding.briggsdev.local
+127.0.0.1 module-crewbasic.briggsdev.local
+127.0.0.1 module-dashboardbasic.briggsdev.local
+127.0.0.1 module-projectbasic.briggsdev.local
+127.0.0.1 module-quartercompletion.briggsdev.local
+127.0.0.1 briggs-address-module.briggsdev.local

@@ -1,0 +1,90 @@
+{
+    "module_dashboardBasic": {
+        "dashboard_page": {
+            "heyThere": "Olá,",
+            "hereIsWhatsHappening": "Aqui está o que está acontecendo na sua conta Briggs+Walker hoje.",
+            "overview": {
+                "title": "Visão Geral",
+                "shifts": "Turnos",
+                "signups": "Inscrições",
+                "donationValue": "Valor da Doação",
+                "avgShiftValue": "Valor Médio do Turno"
+            },
+            "quickActions": {
+                "title": "Ações Rápidas",
+                "manageProject": "Gerenciar Projeto",
+                "manageCrew": "Gerenciar Equipe",
+                "startFundraising": "Iniciar Arrecadação",
+                "exportResults": "Exportar Resultados",
+                "fundraisingInstructions": "Para começar a arrecadar fundos, baixe o Field App na loja de aplicativos. Escaneie o link abaixo com o dispositivo que deseja usar em campo ou clique nos links abaixo.",
+                "useCredentials": "Use suas credenciais de login desta plataforma para entrar.",
+                "useWeb": "Usar interface web",
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web"
+            },
+            "daily_activity": {
+                "title": "Atividade diária",
+                "noActivity": "Nenhuma atividade ainda",
+                "noActivityDescription": "Assim que sua equipe for adicionada e estiver ativa, você verá atualizações aqui em tempo real.",
+                "shiftSignin": "{{crew}}-{{marketing}} iniciou seu turno.",
+                "shiftClosed": "{{crew}}-{{marketing}} terminou seu turno.",
+                "resultNew": "{{office}}-{{marketing}} fez uma nova inscrição: {{description}}",
+                "timeline": {
+                    "yesterday": "Ontem"
+                }
+            },
+            "planning": {
+                "title": "Planejamento",
+                "previousWeek": "Semana anterior",
+                "nextWeek": "Próxima semana",
+                "noShiftScheduled": "Nenhum turno agendado",
+                "setUpProject": "Configure seu projeto e equipe para começar a planejar e atribuir turnos no calendário",
+                "crewAssigned": "Membro da equipe atribuído a um turno!",
+                "deleteShift": "Excluir Turno",
+                "deleteShiftConfirm": "Tem certeza de que deseja excluir este turno? Esta ação não pode ser desfeita.",
+                "cancel": "Cancelar",
+                "delete": "Excluir",
+                "error": "Ocorreu um erro! Por favor, contate o administrador!",
+                "assignCrew": "Atribuir Equipe",
+                "invalidProjectHeading": "Projeto não encontrado!",
+                "invalidProjectDescription": "Por favor, complete o assistente de projeto para continuar.",
+                "days": {
+                    "SUN": "DOM",
+                    "MON": "SEG",
+                    "TUE": "TER",
+                    "WED": "QUA",
+                    "THU": "QUI",
+                    "FRI": "SEX",
+                    "SAT": "SAB"
+                }
+            }
+        },
+        "addCrewModal": {
+            "title": "Adicionar Membro da Equipe",
+            "firstName": "Nome",
+            "lastName": "Sobrenome",
+            "email": "Endereço de Email",
+            "inviteEmailPreview": "Prévia do Email de Convite",
+            "invitedTo": "Você foi convidado para Briggs+Walker",
+            "hi": "Olá",
+            "inviteBody": "Você foi adicionado como membro da equipe no Briggs+Walker. Toque abaixo para configurar sua conta e começar.",
+            "joinNow": "Entrar Agora",
+            "cancel": "Cancelar",
+            "invite": "Convidar Membro da Equipe",
+            "alreadyExists": "Membro da equipe já existe",
+            "error": "Ocorreu um erro. Por favor, contate o suporte"
+        },
+        "assignCrewModal": {
+            "title": "Atribuir Membro da Equipe",
+            "selectCrew": "Selecionar Membro da Equipe",
+            "assign": "Atribuir",
+            "cancel": "Cancelar",
+            "success": "Membro da equipe atribuído com sucesso!",
+            "alreadyAssigned": "Já foi atribuído um turno para a data fornecida.",
+            "error": "Ocorreu um erro. Por favor, tente novamente.",
+            "addCrewMember": "Adicionar Membro da Equipe",
+            "searchPlaceholder": "Pesquisar"
+        }
+    }
+}

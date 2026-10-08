@@ -1,0 +1,24 @@
+{
+    "module_orchestrator": {
+        "sideBar": {
+            "quarterCompletion": "Quarter Completion",
+            "dashboard": "Dashboard",
+            "crew": "Crew",
+            "projects": "Projects",
+            "missionControl": "Mission Control",
+            "overview": "Overview",
+            "office": "Office",
+            "account": "Account",
+            "recruitment": "Recruitment",
+            "projectWizard": "Projects",
+            "addressManagement": "Address Management",
+            "heatMap": "Heat Map",
+            "createAddressSet": "Manage Audience",
+            "logOut": "Log out",
+            "quarters": "Quarters"
+        },
+        "projectWizardProgress": {
+            "completeSetup": "Complete Setup"
+        }
+    }
+}

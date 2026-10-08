@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Gestão de endereços",
+      "breadcrumb-current": "Gerir audiência",
+      "title": "Passo 1 de 4: Escolher a origem dos endereços",
+      "subtitle": "Escolha por onde quer começar. Pode utilizar um conjunto de endereços predefinido ou carregar o seu.",
+      "continue": "Continuar",
+      "error-templates": "Ocorreu um erro ao carregar os modelos.",
+      "error-projects": "Ocorreu um erro ao carregar os projetos.",
+      "error-submit": "Ocorreu um erro ao criar o conjunto de endereços.",
+      "source": {
+        "title": "Selecionar origem dos endereços",
+        "template": {
+          "title": "Utilizar modelo inicial",
+          "description": "Comece a partir de um conjunto de endereços predefinido.",
+          "label": "Modelo",
+          "available": "{{value}} endereços disponíveis"
+        },
+        "upload": {
+          "title": "Carregar os seus próprios endereços",
+          "description": "Carregue um ficheiro CSV com endereços. Os endereços correspondentes serão utilizados para criar o seu conjunto."
+        }
+      },
+      "templates": {
+        "all": "Todos os endereços",
+        "residential": "Residencial",
+        "offices": "Escritórios"
+      },
+      "upload": {
+        "drag-drop": "Arraste e largue o seu CSV aqui",
+        "or": "ou",
+        "browse": "Procurar ficheiros",
+        "replace": "Substituir ficheiro",
+        "csv-only": "Apenas CSV"
+      },
+      "details": {
+        "title": "Detalhes",
+        "name": "Nome",
+        "name-placeholder": "Introduza o nome do conjunto de endereços",
+        "project": "Projeto",
+        "project-placeholder": "Selecione um projeto",
+        "project-loading": "A carregar projetos...",
+        "remarks": "Observações",
+        "remarks-placeholder": "Adicionar observações (opcional)"
+      },
+      "source-change": {
+        "title": "Alterar origem de endereços?",
+        "upload-selected": "Já carregou um ficheiro CSV.",
+        "template-selected": "Já selecionou um modelo inicial.",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Gestão de endereços",
+      "breadcrumb-current": "Filtrar áreas",
+      "title": "Passo 2 de 4: Filtrar áreas",
+      "subtitle": "Escolha filtros para restringir o seu conjunto de endereços.",
+      "select-category": "Selecionar categoria de filtro",
+      "filters-in-category": "Filtros nesta categoria",
+      "reset": "Redefinir",
+      "loading": "A carregar filtros...",
+      "no-filters": "Nenhum filtro disponível para esta categoria.",
+      "error": "Ocorreu um erro ao carregar as categorias de filtros.",
+      "invalid-batch-id": "A ligação para este conjunto de endereços é inválida ou expirou.",
+      "error-list": "Ocorreu um erro ao carregar os endereços filtrados.",
+      "working-set": {
+        "title": "Resumo do conjunto de trabalho",
+        "total-addresses": "Total de endereços",
+        "included": "Endereços incluídos",
+        "included-areas": "Áreas incluídas"
+      },
+      "neighbourhood-list": {
+        "title": "Resumo de bairros",
+        "subtitle": "Número de endereços por bairro.",
+        "column-neighbourhood": "Bairro",
+        "column-total": "Total de endereços",
+        "column-included": "Incluído",
+        "column-excluded": "Excluído",
+        "no-results": "Nenhum bairro encontrado."
+      },
+      "reset-filters": "Redefinir todos os filtros",
+      "apply-filters": "Aplicar filtros",
+      "finalize": "Finalizar",
+      "finalize-error": {
+        "InvalidRequest": "Não foi possível finalizar o conjunto de endereços porque o pedido é inválido. Verifique os filtros selecionados e tente novamente.",
+        "UnknownFilterCodes": "Alguns filtros selecionados já não estão disponíveis. Reponha os filtros e tente novamente.",
+        "BatchNotFound": "Não foi possível encontrar este conjunto de endereços. Volte atrás e selecione novamente o conjunto de endereços.",
+        "BatchFinalized": "Este conjunto de endereços já foi finalizado.",
+        "Unknown": "Ocorreu um erro ao finalizar o conjunto de endereços."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Gestão de endereços",
+      "breadcrumb-current": "Resumo do conjunto de endereços",
+      "title": "Passo 2 de 4: Resumo do conjunto de endereços",
+      "subtitle": "Revise os endereços encontrados no seu arquivo enviado antes de criar o conjunto de endereços."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Gestão de endereços",
+      "breadcrumb-current": "Aplicar conjunto de endereços",
+      "title": "Passo 3 de 4: Aplicar conjunto de endereços",
+      "subtitle": "Reveja os detalhes abaixo e escolha como este conjunto de endereços deve ser aplicado ao projeto selecionado.",
+      "details": {
+        "title": "Detalhes do conjunto de endereços",
+        "name": "Nome",
+        "project-name": "Nome do projeto",
+        "remarks": "Observações"
+      },
+      "options": {
+        "title": "Como deve este conjunto de endereços ser aplicado?",
+        "replace": {
+          "title": "Substituir endereços do projeto",
+          "description": "Os endereços fora deste conjunto serão marcados como excluídos."
+        },
+        "update": {
+          "title": "Atualizar apenas os endereços selecionados",
+          "description": "Apenas os endereços deste conjunto serão atualizados. Os outros endereços permanecem inalterados."
+        }
+      },
+      "back": "Voltar",
+      "continue": "Continuar",
+      "invalid-batch-id": "A ligação para este conjunto de endereços é inválida ou expirou.",
+      "error-loading-summary": "Algo deu errado ao carregar o resumo do conjunto de endereços."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Gestão de endereços",
+      "breadcrumb-current": "Estado do conjunto de endereços",
+      "title": "Passo 4 de 4: Estado do conjunto de endereços",
+      "subtitle": "Visualize o estado do seu conjunto de endereços.",
+      "card-title": "Estado do conjunto de endereços",
+      "refresh": "Atualizar",
+      "error": "Ocorreu um erro ao obter o estado do conjunto de endereços.",
+      "no-data": "Ainda não existem atualizações de estado disponíveis.",
+      "overall": {
+        "success": "Pronto",
+        "failed": "Falhou",
+        "finalized": "Audiência selecionada",
+        "processing": "A criar…"
+      },
+      "stages": {
+        "finalized": "Audiência selecionada",
+        "processing": "A criar conjunto de endereços",
+        "success": "Conjunto de endereços pronto",
+        "failed": "Criação falhou"
+      },
+      "detail": {
+        "audience-selected": "A sua audiência alvo e filtros foram confirmados",
+        "ready": "O seu conjunto de endereços foi criado e está pronto a usar",
+        "processed": "Geração do conjunto de endereços concluída",
+        "in-progress": "O seu conjunto de endereços está a ser criado…",
+        "failed": "O seu conjunto de endereços não pôde ser criado."
+      }
+    }
+  }
+}

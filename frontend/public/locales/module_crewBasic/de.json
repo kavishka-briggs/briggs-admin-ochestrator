@@ -1,0 +1,35 @@
+{
+    "modules_crewBasic": {
+        "crewPage": {
+            "title": "Crew-Verwaltung",
+            "description": "Verwalten Sie hier Ihre Crewmitglieder.",
+            "addCrewMember": "Crewmitglied hinzufügen",
+            "crewListEmpty": "Keine Crewmitglieder gefunden.",
+            "name": "Name",
+            "lastActivity": "Letzte Aktivität",
+            "nextShift": "Nächste Schicht",
+            "average": "Durchschnitt",
+            "averageTooltip": "Durchschnittliche Anmeldungen in den letzten 5 Schichten",
+            "notPlanned": "Nicht geplant",
+            "onShift": "Im Dienst",
+            "expected": "Erwartet",
+            "operations": "Betrieb"
+        },
+        "addCrewModal": {
+            "title": "Crewmitglied hinzufügen",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "-Mail-Adresse",
+            "inviteEmailPreview": "Einladungs-E-Mail-Vorschau",
+            "invitedTo": "Sie wurden zu Briggs+Walker eingeladen",
+            "hi": "Hallo",
+            "inviteBody": "Sie wurden als Crewmitglied bei Briggs+Walker hinzugefügt. Tippen Sie unten, um Ihr Konto einzurichten und loszulegen.",
+            "joinNow": "Jetzt beitreten",
+            "cancel": "Abbrechen",
+            "invite": "Crewmitglied einladen",
+            "alreadyExists": "Crewmitglied existiert bereits",
+            "error": "Ein Fehler ist aufgetreten. Bitte kontaktieren Sie den Support",
+            "success": "Crewmitglied eingeladen!"
+        }
+    }
+}

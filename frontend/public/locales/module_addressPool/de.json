@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Adressverwaltung",
+      "breadcrumb-current": "Zielgruppe verwalten",
+      "title": "Schritt 1 von 4: Adressquelle wählen",
+      "subtitle": "Wählen Sie, womit Sie beginnen möchten. Sie können einen vordefinierten Adresssatz verwenden oder einen eigenen hochladen.",
+      "continue": "Weiter",
+      "error-templates": "Beim Laden der Vorlagen ist ein Fehler aufgetreten.",
+      "error-projects": "Beim Laden der Projekte ist ein Fehler aufgetreten.",
+      "error-submit": "Beim Erstellen des Adresssatzes ist ein Fehler aufgetreten.",
+      "source": {
+        "title": "Adressquelle auswählen",
+        "template": {
+          "title": "Startvorlage verwenden",
+          "description": "Mit einem vordefinierten Adresssatz beginnen.",
+          "label": "Vorlage",
+          "available": "{{value}} Adressen verfügbar"
+        },
+        "upload": {
+          "title": "Eigene Adressen hochladen",
+          "description": "Laden Sie eine CSV-Datei mit Adressen hoch. Passende Adressen werden zum Erstellen Ihres Adresssatzes verwendet."
+        }
+      },
+      "templates": {
+        "all": "Alle Adressen",
+        "residential": "Wohnadressen",
+        "offices": "Büros"
+      },
+      "upload": {
+        "drag-drop": "Ziehen Sie Ihre CSV hierher",
+        "or": "oder",
+        "browse": "Dateien durchsuchen",
+        "replace": "Datei ersetzen",
+        "csv-only": "Nur CSV"
+      },
+      "details": {
+        "title": "Details",
+        "name": "Name",
+        "name-placeholder": "Name des Adresssatzes eingeben",
+        "project": "Projekt",
+        "project-placeholder": "Projekt auswählen",
+        "project-loading": "Projekte werden geladen...",
+        "remarks": "Anmerkungen",
+        "remarks-placeholder": "Anmerkungen hinzufügen (optional)"
+      },
+      "source-change": {
+        "title": "Adressquelle wechseln?",
+        "upload-selected": "Sie haben bereits eine CSV-Datei hochgeladen.",
+        "template-selected": "Sie haben bereits eine Startvorlage ausgewählt.",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Adressverwaltung",
+      "breadcrumb-current": "Gebiete filtern",
+      "title": "Schritt 2 von 4: Gebiete filtern",
+      "subtitle": "Wählen Sie Filter aus, um Ihren Adresssatz einzugrenzen.",
+      "select-category": "Filterkategorie auswählen",
+      "filters-in-category": "Filter in dieser Kategorie",
+      "reset": "Zurücksetzen",
+      "loading": "Filter werden geladen...",
+      "no-filters": "Keine Filter für diese Kategorie verfügbar.",
+      "error": "Beim Laden der Filterkategorien ist ein Fehler aufgetreten.",
+      "invalid-batch-id": "Der Link zu diesem Adresssatz ist ungültig oder abgelaufen.",
+      "error-list": "Beim Laden der gefilterten Adressen ist ein Fehler aufgetreten.",
+      "working-set": {
+        "title": "Arbeitssatz-Zusammenfassung",
+        "total-addresses": "Gesamtadressen",
+        "included": "Eingeschlossene Adressen",
+        "included-areas": "Eingeschlossene Gebiete"
+      },
+      "neighbourhood-list": {
+        "title": "Stadtteilübersicht",
+        "subtitle": "Anzahl der Adressen nach Stadtteil.",
+        "column-neighbourhood": "Stadtteil",
+        "column-total": "Gesamtadressen",
+        "column-included": "Eingeschlossen",
+        "column-excluded": "Ausgeschlossen",
+        "no-results": "Keine Stadtteile gefunden."
+      },
+      "reset-filters": "Alle Filter zurücksetzen",
+      "apply-filters": "Filter anwenden",
+      "finalize": "Abschließen",
+      "finalize-error": {
+        "InvalidRequest": "Der Adresssatz konnte nicht abgeschlossen werden, da die Anfrage ungültig ist. Bitte überprüfen Sie die ausgewählten Filter und versuchen Sie es erneut.",
+        "UnknownFilterCodes": "Einige ausgewählte Filter sind nicht mehr verfügbar. Bitte setzen Sie die Filter zurück und versuchen Sie es erneut.",
+        "BatchNotFound": "Dieser Adresssatz konnte nicht gefunden werden. Bitte gehen Sie zurück und wählen Sie den Adresssatz erneut aus.",
+        "BatchFinalized": "Dieser Adresssatz wurde bereits abgeschlossen.",
+        "Unknown": "Beim Abschließen des Adresssatzes ist ein Fehler aufgetreten."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Adressverwaltung",
+      "breadcrumb-current": "Übersicht des Adresssatzes",
+      "title": "Schritt 2 von 4: Übersicht des Adresssatzes",
+      "subtitle": "Überprüfen Sie die in Ihrer hochgeladenen Datei gefundenen Adressen, bevor Sie den Adresssatz erstellen."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Adressverwaltung",
+      "breadcrumb-current": "Adresssatz anwenden",
+      "title": "Schritt 3 von 4: Adresssatz anwenden",
+      "subtitle": "Prüfen Sie die folgenden Details und wählen Sie, wie dieser Adresssatz auf das ausgewählte Projekt angewendet werden soll.",
+      "details": {
+        "title": "Adresssatzdetails",
+        "name": "Name",
+        "project-name": "Projektname",
+        "remarks": "Anmerkungen"
+      },
+      "options": {
+        "title": "Wie soll dieser Adresssatz angewendet werden?",
+        "replace": {
+          "title": "Projektadressen ersetzen",
+          "description": "Adressen außerhalb dieses Adresssatzes werden als ausgeschlossen markiert."
+        },
+        "update": {
+          "title": "Nur ausgewählte Adressen aktualisieren",
+          "description": "Nur Adressen in diesem Adresssatz werden aktualisiert. Andere Adressen bleiben unverändert."
+        }
+      },
+      "back": "Zurück",
+      "continue": "Weiter",
+      "invalid-batch-id": "Der Link zu diesem Adresssatz ist ungültig oder abgelaufen.",
+      "error-loading-summary": "Beim Laden der Zusammenfassung des Adresssatzes ist ein Fehler aufgetreten."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Adressverwaltung",
+      "breadcrumb-current": "Status des Adresssatzes",
+      "title": "Schritt 4 von 4: Status des Adresssatzes",
+      "subtitle": "Sehen Sie den Status Ihres Adresssatzes ein.",
+      "card-title": "Status des Adresssatzes",
+      "refresh": "Aktualisieren",
+      "error": "Beim Abrufen des Status des Adresssatzes ist ein Fehler aufgetreten.",
+      "no-data": "Es sind noch keine Statusaktualisierungen verfügbar.",
+      "overall": {
+        "success": "Bereit",
+        "failed": "Fehlgeschlagen",
+        "finalized": "Zielgruppe ausgewählt",
+        "processing": "Erstellen…"
+      },
+      "stages": {
+        "finalized": "Zielgruppe ausgewählt",
+        "processing": "Adresssatz erstellen",
+        "success": "Adresssatz bereit",
+        "failed": "Erstellung fehlgeschlagen"
+      },
+      "detail": {
+        "audience-selected": "Ihre Zielgruppe und Filter wurden bestätigt",
+        "ready": "Ihr Adresssatz wurde erstellt und ist einsatzbereit",
+        "processed": "Adresssatzerstellung abgeschlossen",
+        "in-progress": "Ihr Adresssatz wird erstellt…",
+        "failed": "Ihr Adresssatz konnte nicht erstellt werden."
+      }
+    }
+  }
+}

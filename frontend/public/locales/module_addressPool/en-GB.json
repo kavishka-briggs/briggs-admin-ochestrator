@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Address Management",
+      "breadcrumb-current": "Manage Audience",
+      "title": "Step 1 of 4: Choose Address Source",
+      "subtitle": "Choose where you want to start from. You can use a predefined address set or upload your own.",
+      "continue": "Continue",
+      "error-templates": "Something went wrong while loading templates.",
+      "error-projects": "Something went wrong while loading projects.",
+      "error-submit": "Something went wrong while creating the address set.",
+      "source": {
+        "title": "Select address source",
+        "template": {
+          "title": "Use starter template",
+          "description": "Start from a predefined address set.",
+          "label": "Template",
+          "available": "{{value}} addresses available"
+        },
+        "upload": {
+          "title": "Upload your own addresses",
+          "description": "Upload a CSV file containing addresses. Matching addresses will be used to create your address set."
+        }
+      },
+      "templates": {
+        "all": "All addresses",
+        "residential": "Residential",
+        "offices": "Offices"
+      },
+      "upload": {
+        "drag-drop": "Drag & drop your CSV here",
+        "or": "or",
+        "browse": "Browse files",
+        "replace": "Replace file",
+        "csv-only": "CSV only"
+      },
+      "details": {
+        "title": "Details",
+        "name": "Name",
+        "name-placeholder": "Enter address set name",
+        "project": "Project",
+        "project-placeholder": "Select a project",
+        "project-loading": "Loading projects...",
+        "remarks": "Remarks",
+        "remarks-placeholder": "Add any remarks (optional)"
+      },
+      "source-change": {
+        "title": "Change address source?",
+        "upload-selected": "You have already uploaded a CSV file.",
+        "template-selected": "You have already selected a starter template.",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Address Management",
+      "breadcrumb-current": "Filter Areas",
+      "title": "Step 2 of 4: Filter Areas",
+      "subtitle": "Choose filters to narrow down your address set.",
+      "select-category": "Select filter category",
+      "filters-in-category": "Filters in this category",
+      "reset": "Reset",
+      "loading": "Loading filters...",
+      "no-filters": "No filters available for this category.",
+      "error": "Something went wrong while loading filter categories.",
+      "invalid-batch-id": "The address set link is invalid or has expired.",
+      "error-list": "Something went wrong while loading filtered addresses.",
+      "working-set": {
+        "title": "Working Set Summary",
+        "total-addresses": "Total addresses",
+        "included": "Included addresses",
+        "included-areas": "Included areas"
+      },
+      "neighbourhood-list": {
+        "title": "Neighbourhood summary",
+        "subtitle": "Number of addresses by neighbourhood.",
+        "column-neighbourhood": "Neighbourhood",
+        "column-total": "Total addresses",
+        "column-included": "Included",
+        "column-excluded": "Excluded",
+        "no-results": "No neighbourhoods found."
+      },
+      "reset-filters": "Reset All Filters",
+      "apply-filters": "Apply Filters",
+      "finalize": "Finalize",
+      "finalize-error": {
+        "InvalidRequest": "We could not finalise the address set because the request is invalid. Please check the selected filters and try again.",
+        "UnknownFilterCodes": "Some selected filters are no longer available. Please reset the filters and try again.",
+        "BatchNotFound": "This address set could not be found. Please go back and select the address set again.",
+        "BatchFinalized": "This address set has already been finalised.",
+        "Unknown": "Something went wrong while finalising the address set."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Address Management",
+      "breadcrumb-current": "Address Set Overview",
+      "title": "Step 2 of 4: Address Set Overview",
+      "subtitle": "Review the addresses matched from your uploaded file before creating the address set."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Address Management",
+      "breadcrumb-current": "Apply Address Set",
+      "title": "Step 3 of 4: Apply Address Set",
+      "subtitle": "Review the details below and choose how this address set should be applied to the selected project.",
+      "details": {
+        "title": "Address Set Details",
+        "name": "Name",
+        "project-name": "Project Name",
+        "remarks": "Remarks"
+      },
+      "options": {
+        "title": "How should this address set be applied?",
+        "replace": {
+          "title": "Replace project addresses",
+          "description": "Addresses outside this address set will be marked as excluded."
+        },
+        "update": {
+          "title": "Update selected addresses only",
+          "description": "Only addresses in this address set will be updated. Other addresses remain unchanged."
+        }
+      },
+      "back": "Back",
+      "continue": "Continue",
+      "invalid-batch-id": "The address set link is invalid or has expired.",
+      "error-loading-summary": "Something went wrong whilst loading the address set summary."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Address Management",
+      "breadcrumb-current": "Address Set Status",
+      "title": "Step 4 of 4: Address Set Status",
+      "subtitle": "View the status of your address set.",
+      "card-title": "Address Set Status",
+      "refresh": "Refresh",
+      "error": "Something went wrong while fetching address set status.",
+      "no-data": "No status updates are available yet.",
+      "overall": {
+        "success": "Ready",
+        "failed": "Failed",
+        "finalized": "Audience Selected",
+        "processing": "Building…"
+      },
+      "stages": {
+        "finalized": "Audience Selected",
+        "processing": "Building Address Set",
+        "success": "Address Set Ready",
+        "failed": "Creation Failed"
+      },
+      "detail": {
+        "audience-selected": "Your target audience and filters have been confirmed",
+        "ready": "Your address set has been created and is ready to use",
+        "processed": "Address set generation complete",
+        "in-progress": "Your address set is being built…",
+        "failed": "Your address set could not be created."
+      }
+    }
+  }
+}

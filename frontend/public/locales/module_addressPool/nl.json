@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Adresbeheer",
+      "breadcrumb-current": "Doelgroep beheren",
+      "title": "Stap 1 van 4: Kies adresbron",
+      "subtitle": "Kies waar je wilt beginnen. Je kunt een vooraf gedefinieerde adressenset gebruiken of je eigen uploaden.",
+      "continue": "Doorgaan",
+      "error-templates": "Er is iets misgegaan bij het laden van sjablonen.",
+      "error-projects": "Er is iets misgegaan bij het laden van projecten.",
+      "error-submit": "Er is iets misgegaan bij het aanmaken van de adressenset.",
+      "source": {
+        "title": "Selecteer adresbron",
+        "template": {
+          "title": "Gebruik startsjabloon",
+          "description": "Begin met een vooraf gedefinieerde adressenset.",
+          "label": "Sjabloon",
+          "available": "{{value}} adressen beschikbaar"
+        },
+        "upload": {
+          "title": "Upload je eigen adressen",
+          "description": "Upload een CSV-bestand met adressen. Overeenkomende adressen worden gebruikt om je adressenset aan te maken."
+        }
+      },
+      "templates": {
+        "all": "Alle adressen",
+        "residential": "Woonadressen",
+        "offices": "Kantoren"
+      },
+      "upload": {
+        "drag-drop": "Sleep je CSV hierheen",
+        "or": "of",
+        "browse": "Bestand kiezen",
+        "replace": "Bestand vervangen",
+        "csv-only": "Alleen CSV"
+      },
+      "details": {
+        "title": "Details",
+        "name": "Naam",
+        "name-placeholder": "Voer naam van adressenset in",
+        "project": "Project",
+        "project-placeholder": "Selecteer een project",
+        "project-loading": "Projecten laden...",
+        "remarks": "Opmerkingen",
+        "remarks-placeholder": "Voeg opmerkingen toe (optioneel)"
+      },
+      "source-change": {
+        "title": "Adresbron wijzigen?",
+        "upload-selected": "Je hebt al een CSV-bestand geüpload.",
+        "template-selected": "Je hebt al een startsjabloon geselecteerd.",
+        "cancel": "Annuleren",
+        "confirm": "Bevestigen"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Adresbeheer",
+      "breadcrumb-current": "Filter gebieden",
+      "title": "Stap 2 van 4: Filter gebieden",
+      "subtitle": "Kies filters om je adressenset te verfijnen.",
+      "select-category": "Selecteer filtercategorie",
+      "filters-in-category": "Filters in deze categorie",
+      "reset": "Resetten",
+      "loading": "Filters laden...",
+      "no-filters": "Geen filters beschikbaar voor deze categorie.",
+      "error": "Er is iets misgegaan bij het laden van de filtercategorieën.",
+      "invalid-batch-id": "De link naar deze adressenset is ongeldig of verlopen.",
+      "error-list": "Er is iets misgegaan bij het laden van de gefilterde adressen.",
+      "working-set": {
+        "title": "Werkset samenvatting",
+        "total-addresses": "Totaal adressen",
+        "included": "Opgenomen adressen",
+        "included-areas": "Opgenomen gebieden"
+      },
+      "neighbourhood-list": {
+        "title": "Buurtenoverzicht",
+        "subtitle": "Aantal adressen per buurt.",
+        "column-neighbourhood": "Buurt",
+        "column-total": "Totaal adressen",
+        "column-included": "Opgenomen",
+        "column-excluded": "Uitgesloten",
+        "no-results": "Geen buurten gevonden."
+      },
+      "reset-filters": "Alle filters resetten",
+      "apply-filters": "Filters toepassen",
+      "finalize": "Voltooien",
+      "finalize-error": {
+        "InvalidRequest": "De adressenset kon niet worden afgerond omdat het verzoek ongeldig is. Controleer de geselecteerde filters en probeer het opnieuw.",
+        "UnknownFilterCodes": "Sommige geselecteerde filters zijn niet meer beschikbaar. Stel de filters opnieuw in en probeer het opnieuw.",
+        "BatchNotFound": "Deze adressenset kon niet worden gevonden. Ga terug en selecteer de adressenset opnieuw.",
+        "BatchFinalized": "Deze adressenset is al afgerond.",
+        "Unknown": "Er is iets misgegaan bij het afronden van de adressenset."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Adresbeheer",
+      "breadcrumb-current": "Overzicht adressenset",
+      "title": "Stap 2 van 4: Overzicht adressenset",
+      "subtitle": "Controleer de adressen die zijn gevonden in uw geüploade bestand voordat u de adressenset maakt."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Adresbeheer",
+      "breadcrumb-current": "Adressenset toepassen",
+      "title": "Stap 3 van 4: Adressenset toepassen",
+      "subtitle": "Controleer de onderstaande gegevens en kies hoe deze adressenset op het geselecteerde project moet worden toegepast.",
+      "details": {
+        "title": "Details adressenset",
+        "name": "Naam",
+        "project-name": "Projectnaam",
+        "remarks": "Opmerkingen"
+      },
+      "options": {
+        "title": "Hoe moet deze adressenset worden toegepast?",
+        "replace": {
+          "title": "Projectadressen vervangen",
+          "description": "Adressen buiten deze adressenset worden als uitgesloten gemarkeerd."
+        },
+        "update": {
+          "title": "Alleen geselecteerde adressen bijwerken",
+          "description": "Alleen adressen in deze adressenset worden bijgewerkt. Andere adressen blijven ongewijzigd."
+        }
+      },
+      "back": "Terug",
+      "continue": "Doorgaan",
+      "invalid-batch-id": "De link naar deze adressenset is ongeldig of verlopen.",
+      "error-loading-summary": "Er is iets misgegaan bij het laden van de samenvatting van de adressenset."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Adresbeheer",
+      "breadcrumb-current": "Status van adressenset",
+      "title": "Stap 4 van 4: Status van adressenset",
+      "subtitle": "Bekijk de status van je adressenset.",
+      "card-title": "Status van adressenset",
+      "refresh": "Vernieuwen",
+      "error": "Er is iets misgegaan bij het ophalen van de status van de adressenset.",
+      "no-data": "Er zijn nog geen statusupdates beschikbaar.",
+      "overall": {
+        "success": "Gereed",
+        "failed": "Mislukt",
+        "finalized": "Doelgroep geselecteerd",
+        "processing": "Aanmaken…"
+      },
+      "stages": {
+        "finalized": "Doelgroep geselecteerd",
+        "processing": "Adressenset aanmaken",
+        "success": "Adressenset gereed",
+        "failed": "Aanmaken mislukt"
+      },
+      "detail": {
+        "audience-selected": "Uw doelgroep en filters zijn bevestigd",
+        "ready": "Uw adressenset is aangemaakt en klaar voor gebruik",
+        "processed": "Adressenset generatie voltooid",
+        "in-progress": "Uw adressenset wordt aangemaakt…",
+        "failed": "Uw adressenset kon niet worden aangemaakt."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "layout": {
+      "content-area-bg": "#FFFFFF",
+      "loader-bg": "#181050"
+    },
+    "project-completion-progress": {
+      "bg": "#007F5F"
+    }
+  }
+}

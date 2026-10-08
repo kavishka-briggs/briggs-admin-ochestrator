@@ -1,0 +1,90 @@
+{
+    "module_dashboardBasic": {
+        "dashboard_page": {
+            "heyThere": "Hallo,",
+            "hereIsWhatsHappening": "Dit gebeurt er vandaag in je Briggs+Walker-account.",
+            "overview": {
+                "title": "Overzicht",
+                "shifts": "Shifts",
+                "signups": "Aanmeldingen",
+                "donationValue": "Donatiewaarde",
+                "avgShiftValue": "Gem. Shiftwaarde"
+            },
+            "quickActions": {
+                "title": "Snelle acties",
+                "manageProject": "Project beheren",
+                "manageCrew": "Crew beheren",
+                "startFundraising": "Fondsenwerving starten",
+                "exportResults": "Resultaten exporteren",
+                "fundraisingInstructions": "Om te starten met fondsenwerving, download de Field App uit de app store. Scan de onderstaande link met het apparaat dat je in het veld wilt gebruiken of klik op de links onderaan.",
+                "useCredentials": "Gebruik je inloggegevens van dit platform om in te loggen.",
+                "useWeb": "Gebruik webinterface",
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web"
+            },
+            "daily_activity": {
+                "title": "Dagelijkse activiteit",
+                "noActivity": "Nog geen activiteit",
+                "noActivityDescription": "Zodra je crew is toegevoegd en actief is, zie je hier realtime updates.",
+                "shiftSignin": "{{crew}}-{{marketing}} is hun shift gestart.",
+                "shiftClosed": "{{crew}}-{{marketing}} heeft hun shift beëindigd.",
+                "resultNew": "{{office}}-{{marketing}} heeft een nieuwe aanmelding: {{description}}",
+                "timeline": {
+                    "yesterday": "Gisteren"
+                }
+            },
+            "planning": {
+                "title": "Planning",
+                "previousWeek": "Vorige week",
+                "nextWeek": "Volgende week",
+                "noShiftScheduled": "Geen shift gepland",
+                "setUpProject": "Stel je project en crew in om shifts te plannen en toe te wijzen op de kalender",
+                "crewAssigned": "Crewlid toegewezen aan een shift!",
+                "deleteShift": "Shift verwijderen",
+                "deleteShiftConfirm": "Weet je zeker dat je deze shift wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+                "cancel": "Annuleren",
+                "delete": "Verwijderen",
+                "error": "Er is een fout opgetreden! Neem contact op met de beheerder!",
+                "assignCrew": "Crew toewijzen",
+                "invalidProjectHeading": "Project niet gevonden!",
+                "invalidProjectDescription": "Voltooi de projectwizard om door te gaan.",
+                "days": {
+                    "SUN": "ZON",
+                    "MON": "MAA",
+                    "TUE": "DIN",
+                    "WED": "WOE",
+                    "THU": "DON",
+                    "FRI": "VRI",
+                    "SAT": "ZAT"
+                }
+            }
+        },
+        "addCrewModal": {
+            "title": "Crewlid toevoegen",
+            "firstName": "Voornaam",
+            "lastName": "Achternaam",
+            "email": "E-mailadres",
+            "inviteEmailPreview": "Voorbeeld uitnodigingsmail",
+            "invitedTo": "Je bent uitgenodigd voor Briggs+Walker",
+            "hi": "Hallo",
+            "inviteBody": "Je bent toegevoegd als crewmember op Briggs+Walker. Tik hieronder om je account in te stellen en te beginnen.",
+            "joinNow": "Nu deelnemen",
+            "cancel": "Annuleren",
+            "invite": "Crewlid uitnodigen",
+            "alreadyExists": "Crewlid bestaat al",
+            "error": "Er is een fout opgetreden. Neem contact op met support."
+        },
+        "assignCrewModal": {
+            "title": "Crewlid toegewezen",
+            "selectCrew": "Selecteer crewmember",
+            "assign": "Toewijzen",
+            "cancel": "Annuleren",
+            "success": "Crewlid succesvol toegewezen!",
+            "alreadyAssigned": "Voor de opgegeven datum is al een shift toegewezen.",
+            "error": "Er is een fout opgetreden. Probeer het opnieuw.",
+            "addCrewMember": "Crewlid toevoegen",
+            "searchPlaceholder": "Zoeken"
+        }
+    }
+}

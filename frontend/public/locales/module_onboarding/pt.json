@@ -1,0 +1,105 @@
+{
+    "module_onboarding": {
+        "accountCreatingPage": {
+            "almostThere": "Quase lá...",
+            "yourAccountIsBeingCreated": "Sua conta está sendo criada",
+            "logoutButtonLabel": "Sair"
+        },
+        "onboardingPage": {
+            "backButtonLabel": "Voltar",
+            "continueButtonLabel": "Continuar",
+            "createAccountButtonLabel": "Criar Conta",
+            "organizationAlreadyExists": "Já existe uma organização com este nome. Por favor, escolha outro nome.",
+            "errorWhileUpdatingUserInfo": "Ocorreu um erro ao atualizar as informações do usuário. Por favor, tente novamente mais tarde.",
+            "errorWhileSettingSignature": "Ocorreu um erro ao definir sua assinatura. Por favor, tente novamente mais tarde.",
+            "errorWhileCreatingOrganization": "Ocorreu um erro ao criar sua organização. Por favor, tente novamente mais tarde.",
+            "gettingToKnowYou": {
+                "gettingToKnowYou": "Conhecendo você",
+                "language": "Idioma",
+                "firstName": "Nome",
+                "lastName": "Sobrenome",
+                "mobileNumber": "Número de celular",
+                "explanationOrReasonWhyWeAskForThis": "Precisamos do seu número de telefone para resolver rapidamente questões urgentes que são muito complexas ou sensíveis ao tempo para o e-mail.",
+                "jobTitle": "Cargo",
+                "mobileNumberError": "Por favor, insira um número de celular válido",
+                "languageDropDown": {
+                    "dutch": "Holandês",
+                    "english": "Inglês",
+                    "french": "Francês",
+                    "german": "Alemão",
+                    "italian": "Italiano",
+                    "portuguese": "Português",
+                    "spanish": "Espanhol"
+                }
+            },
+            "companyOnboarding": {
+                "typeHerePlaceholder": "Digite aqui",
+                "tellUsAboutYourCompany": "Conte-nos sobre sua empresa",
+                "companyName": "Nome da empresa",
+                "companyNameUnavailableError": "Nome da empresa já está em uso.",
+                "industry": "Setor",
+                "industryOptions": {
+                    "nonProfit": "Sem fins lucrativos",
+                    "agency": "Agência",
+                    "other": "Outro"
+                },
+                "numberOfFundraisers": "Número de captadores de recursos",
+                "legalEntityName": "Nome jurídico",
+                "companyWebsite": "Site da empresa",
+                "companyWebsiteError": "Por favor, insira o site da empresa com https://",
+                "companyCountry": "País da empresa",
+                "selectCountryLabel": "Selecione um país",
+                "companyAddress": "Endereço da empresa",
+                "chamberOfCommerceNumber": "Número da câmara de comércio",
+                "country": {
+                    "germany": "Alemanha",
+                    "netherlands": "Países Baixos",
+                    "belgium": "Bélgica",
+                    "sweden": "Suécia",
+                    "luxembourg": "Luxemburgo",
+                    "france": "França",
+                    "denmark": "Dinamarca",
+                    "spain": "Espanha",
+                    "ireland": "Irlanda",
+                    "italy": "Itália",
+                    "unitedKingdom": "Reino Unido",
+                    "portugal": "Portogallo"
+                },
+                "addressLine": "Linha de endereço",
+                "postalCode": "Código postal",
+                "city": "Cidade",
+                "countryLabel": "País"
+            },
+            "legalPage": {
+                "letsGo": "Vamos lá!",
+                "description": "Estamos entusiasmados que você começará a arrecadar fundos conosco.\n\nVamos tirar a papelada do caminho.",
+                "pleaseAgreeToTheFollowing": "Por favor, concorde com o seguinte:",
+                "legalSelection1": "Preenchi todas as informações corretamente",
+                "legalSelection2": "Declaro que estou autorizado a criar uma conta em nome desta empresa",
+                "legalSelection3": "Declaro que só executaremos projetos para parceiros que nos autorizaram",
+                "iAgreeToThe": "Eu concordo com",
+                "termsAndConditions": "Termos e Condições",
+                "privacyPolicy": "Política de Privacidade",
+                "ofCompanyName": "da Briggs+Walker",
+                "legalSection4TagLine": "Os Termos & Condições incluem o acordo de processamento de dados e a política de uso justo"
+            }
+        },
+        "signup": {
+            "invalidEmail": "E-mail inválido! Por favor, tente novamente!",
+            "emailExists": "E-mail já existe! Por favor, tente novamente com um e-mail diferente.",
+            "errorOccurred": "Ocorreu um erro ao criar sua conta. Por favor, tente novamente mais tarde.",
+            "tooManyRequests": "Muitas solicitações. Por favor, tente novamente mais tarde.",
+            "createAccountTitle": "Crie sua conta gratuita",
+            "createAccountSubtitle": "A maneira mais fácil de executar campanhas F2F. Sem custos, sem código.",
+            "emailLabel": "E-mail",
+            "emailPlaceholder": "joao@exemplo.com",
+            "alreadyHaveAccount": "Já tem uma conta? ",
+            "login": "Entrar",
+            "youveGotMail": "Você recebeu um e-mail",
+            "emailSentTo": "Um e-mail foi enviado para {{email}}.",
+            "clickLinkToConfirm": "Clique no link para confirmar sua conta",
+            "comingSoon": "Em breve....",
+            "createAccountButton": "Criar conta"
+        }
+    }
+}

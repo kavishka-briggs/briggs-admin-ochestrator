@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Voltar",
+        "getStartedBtn": "Começar",
+        "skipBtn": "Pular, vou configurar o projeto depois",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Lançando em apenas um momento",
+            "yourProjectIsBeingSetup": "Seu projeto está sendo configurado",
+            "logout": "Sair"
+        },
+        "amountsInput": {
+            "add": "Adicionar"
+        },
+        "overview": {
+            "heading": "Configurando seu projeto",
+            "description": "Isso levará apenas 5 minutos",
+            "projectSettings": {
+                "projectInfo": "Informações do Projeto & SEPA",
+                "projectInfoDescription": "Adicione o nome do projeto, informações do cliente e detalhes de pagamento.",
+                "donationSettings": "Configurações de Doação",
+                "donationSettingsDescription": "Defina valores de doação, moeda e regras do doador.",
+                "designAndBranding": "Design & Marca",
+                "designAndBrandingDescription": "Atualize a aparência.",
+                "reachingOut": "Alcançando doadores",
+                "reachingOutDescription": "Escolha como você alcançará os doadores.",
+                "agreementTerms": "Termos do Acordo",
+                "agreementTermsDescription": "Defina os termos que os doadores precisam aceitar.",
+                "welcomeEmail": "E-mail de Boas-vindas",
+                "welcomeEmailDescription": "Edite o e-mail enviado após o cadastro de um doador."
+            }
+        },
+        "projectInfo": {
+            "title": "Informações do Projeto & SEPA",
+            "cancelLabel": "Cancelar",
+            "submitLabel": "Enviar",
+            "project": "Projeto",
+            "projectName": "Nome do Projeto",
+            "projectNamePlaceholder": "Meu Projeto",
+            "client": "Cliente",
+            "clientPlaceholder": "Minha Instituição de Caridade Importante",
+            "language": "Idioma",
+            "sepa": "SEPA",
+            "creditorAddress": "Endereço do Credor",
+            "creditorAddressNamePlaceholder": "Nome",
+            "creditorAddressLinePlaceholder": "Endereço",
+            "creditorAddressCityPlaceholder": "Cidade",
+            "creditorAddressPostalCodePlaceholder": "Código Postal",
+            "creditorAddressCountryPlaceholder": "País",
+            "creatorIDSEPA": "ID do Criador (SEPA)",
+            "directDebitStatement": "Declaração de débito direto",
+            "languageDropDown": {
+                "dutch": "Holandês",
+                "english": "Inglês",
+                "french": "Francês",
+                "german": "Alemão",
+                "italian": "Italiano",
+                "portuguese": "Português",
+                "spanish": "Espanhol"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Parâmetros de Doação",
+            "currency": "Moeda",
+            "amounts": "Valores",
+            "allowFreeInput": "Permitir entrada livre",
+            "minimumDonationValue": "Valor mínimo da doação",
+            "minimumDonorAge": "Idade mínima do doador",
+            "cancel": "Cancelar",
+            "submit": "Enviar"
+        },
+        "designAndBranding": {
+            "heading": "Design & Marca",
+            "description": "Atualize a aparência.",
+            "mainBrandColor": "Cor Principal da Marca",
+            "projectStyle": "Estilo do Projeto",
+            "brandLogo": "Logo da Marca",
+            "submit": "Enviar",
+            "cancel": "Cancelar"
+        },
+        "reachingOut": {
+            "title": "Alcançando doadores",
+            "selectOptions": "Selecionar opções",
+            "email": "E-mail",
+            "phone": "Telefone",
+            "directMessaging": "Mensagem Direta",
+            "directMail": "Correio Direto",
+            "cancel": "Cancelar",
+            "submit": "Enviar"
+        },
+        "agreementTerms": {
+            "title": "Termos do Acordo",
+            "selectOptions": "Selecionar opções",
+            "addAgreement": "Adicionar Acordo",
+            "agreementName": "Nome do Acordo",
+            "agreementText": "Texto do Acordo",
+            "cancel": "Cancelar",
+            "submit": "Enviar",
+            "agreements": {
+                "cancellation": "Cancelamento",
+                "cancellationText": "Concordo em contribuir com o montante escolhido de forma recorrente até cancelar o meu apoio",
+                "invoice": "Fatura",
+                "invoiceText": "Autorizo o débito do montante escolhido na minha conta",
+                "recurring": "Recorrente",
+                "recurringText": "Esta é uma doação recorrente que fornece apoio contínuo à nossa causa"
+            }
+        },
+        "welcomeEmail": {
+            "title": "E-mail de Boas-vindas",
+            "modifyText": "Modificar Texto",
+            "cancel": "Cancelar",
+            "submit": "Enviar",
+            "emailTemplate": "<div>Caro(a) ##FIRST_NAME##,</div><div><br></div><div>Obrigado por se inscrever para doações regulares e por se juntar à nossa comunidade de apoiadores. Seu compromisso com nossa causa é profundamente apreciado e faz uma diferença significativa em nossa missão. Cada contribuição nos ajuda a continuar o trabalho vital que realizamos e, com seu apoio, somos capacitados a fazer uma diferença duradoura na vida daqueles que atendemos.</div><div><br></div><div>Sua generosidade não só impulsiona nossos projetos em andamento, mas também inspira outros a se juntarem aos nossos esforços. Prometemos mantê-lo informado sobre como suas doações estão sendo utilizadas e o progresso que estamos fazendo em direção aos nossos objetivos compartilhados.</div><div><br></div><div>Mais uma vez, obrigado por sua dedicação e confiança. Se você tiver alguma dúvida ou quiser mais informações sobre nossos programas, não hesite em entrar em contato.</div><div><br></div><div>Com sincero agradecimento,</div><div><br></div><div>Minha instituição de caridade importante&nbsp;</div>"
+        }
+    }
+}

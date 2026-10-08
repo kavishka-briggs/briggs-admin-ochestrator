@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Date",
+            "crewMember": "Membre d'équipage",
+            "loggedInOut": "Connecté / Déconnecté",
+            "score": "Score",
+            "shiftEfficiency": "Efficacité du quart",
+            "scorePerHour": "score par heure",
+            "shifts": "Quarts",
+            "allProjects": "Tous les projets",
+            "projectDetails": "Détails du projet",
+            "exportResults": "Exporter les résultats",
+            "previewProject": "Aperçu du projet",
+            "allCrewMembers": "Tous les membres d'équipage",
+            "search": "Rechercher",
+            "noCrewMembersFound": "Aucun membre d'équipage trouvé"
+        },
+        "all_projects_page": {
+            "title": "Tous les projets",
+            "searchPlaceholder": "Rechercher des projets...",
+            "projectName": "Nom du projet",
+            "projectCode": "Code du projet",
+            "campaignCode": "Code de campagne",
+            "domainCode": "Code de domaine",
+            "quickActions": "Actions rapides",
+            "shifts": "Quarts",
+            "forms": "Formulaires"
+        },
+        "export_results": {
+            "title": "Exporter les résultats",
+            "exportPeriod": "Période d'exportation",
+            "cancel": "Annuler",
+            "export": "Exporter",
+            "viewExportHistory": "Voir l'historique des exports",
+            "description": "Voir et gérer vos résultats d'exportation",
+            "close": "Fermer",
+            "exportSoon": "Votre export sera bientôt prêt"
+        },
+        "exportHistory": {
+            "title": "Historique des exports",
+            "results": "résultats",
+            "exportPeriod": "Période d'exportation",
+            "template": "Modèle",
+            "download": "Télécharger le CSV",
+            "downloadExpired": "Téléchargement expiré",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Échec de la génération du lien de téléchargement de l'export. Veuillez réessayer plus tard."
+        },
+        "previewModal": {
+            "title": "Aperçu du Formulaire",
+            "context": "Contexte",
+            "contextDescription": "Sélectionnez des valeurs pour prévisualiser le formulaire.",
+            "resetContext": "Réinitialiser le contexte",
+            "location": "Emplacement",
+            "channel": "Canal",
+            "domain": "Domaine",
+            "office": "Bureau",
+            "autoUpdateInfo": "L'aperçu du formulaire se mettra à jour automatiquement en fonction des valeurs de contexte sélectionnées.",
+            "formVersion": "Version du formulaire",
+            "selectOption": "Sélectionner...",
+            "noOptions": "Aucune option disponible",
+            "noLocations": "Aucun emplacement disponible",
+            "published": "Publié",
+            "searchLocation": "Rechercher un lieu...",
+            "projectResult": "Résultat du projet",
+            "errorLoadContextDetails": "Impossible de charger les détails du contexte. Veuillez réessayer.",
+            "errorLoadLocationContext": "Impossible de charger le contexte de localisation. Veuillez réessayer.",
+            "errorLoadAgencyOptions": "Impossible de charger les options d'agence. Veuillez réessayer.",
+            "errorLoadOfficeOptions": "Impossible de charger les options de bureau. Veuillez réessayer.",
+            "errorLoadProjectResults": "Impossible de charger les résultats du projet. Veuillez réessayer.",
+            "errorLoadDomainProjects": "Impossible de charger les projets de domaine. Veuillez réessayer.",
+            "errorSearchLocations": "Impossible de rechercher les emplacements. Veuillez réessayer."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Formulaires",
+            "projects": "Projets",
+            "forms": "Formulaires",
+            "selectForm": "Sélectionner un formulaire",
+            "noFormsFound": "Aucun formulaire trouvé.",
+            "newVersion": "Nouvelle version",
+            "description": "Gérez les versions du formulaire sélectionné. Vous pouvez prévisualiser ou publier une version pour la rendre active.",
+            "version": "Version",
+            "createdAt": "Créé le",
+            "published": "Publié",
+            "actions": "Actions",
+            "preview": "Aperçu",
+            "publish": "Publier"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Back",
+        "getStartedBtn": "Get started",
+        "skipBtn": "Skip, I'll setup the project later",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Launching in just a moment",
+            "yourProjectIsBeingSetup": "Your project is being set up",
+            "logout": "Logout"
+        },
+        "amountsInput": {
+            "add": "Add"
+        },
+        "overview": {
+            "heading": "Setting up your project",
+            "description": "This will only take 5 minutes",
+            "projectSettings": {
+                "projectInfo": "Project Info & SEPA",
+                "projectInfoDescription": "Add your project name, client info, and payment details.",
+                "donationSettings": "Donation Settings",
+                "donationSettingsDescription": "Set donation amounts, currency, and donor rules.",
+                "designAndBranding": "Design & Branding",
+                "designAndBrandingDescription": "Update the look and feel.",
+                "reachingOut": "Reaching out to donors",
+                "reachingOutDescription": "Choose how you'll reach out to donors.",
+                "agreementTerms": "Agreement Terms",
+                "agreementTermsDescription": "Define the terms donors need to accept.",
+                "welcomeEmail": "Welcome Email",
+                "welcomeEmailDescription": "Edit the email sent after a donor signs up."
+            }
+        },
+        "projectInfo": {
+            "title": "Project Info & SEPA",
+            "cancelLabel": "Cancel",
+            "submitLabel": "Submit",
+            "project": "Project",
+            "projectName": "Project Name",
+            "projectNamePlaceholder": "My Project",
+            "client": "Client",
+            "clientPlaceholder": "My Important Charity",
+            "language": "Language",
+            "sepa": "SEPA",
+            "creditorAddress": "Creditor Address",
+            "creditorAddressNamePlaceholder": "Name",
+            "creditorAddressLinePlaceholder": "Address Line",
+            "creditorAddressCityPlaceholder": "City",
+            "creditorAddressPostalCodePlaceholder": "Postal Code",
+            "creditorAddressCountryPlaceholder": "Country",
+            "creatorIDSEPA": "Creator Id (SEPA)",
+            "directDebitStatement": "Direct debit statement",
+            "languageDropDown": {
+                "dutch": "Dutch",
+                "english": "English",
+                "french": "French",
+                "german": "German",
+                "italian": "Italian",
+                "portuguese": "Portuguese",
+                "spanish": "Spanish"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Donation Parameters",
+            "currency": "Currency",
+            "amounts": "Amounts",
+            "allowFreeInput": "Allow free input",
+            "minimumDonationValue": "Minimum donation value",
+            "minimumDonorAge": "Minimum donor age",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        },
+        "designAndBranding": {
+            "heading": "Design & Branding",
+            "description": "Update the look and feel.",
+            "mainBrandColor": "Main Brand Color",
+            "projectStyle": "Project Style",
+            "brandLogo": "Brand Logo",
+            "submit": "Submit",
+            "cancel": "Cancel"
+        },
+        "reachingOut": {
+            "title": "Reaching out to donors",
+            "selectOptions": "Select Options",
+            "email": "Email",
+            "phone": "Phone",
+            "directMessaging": "Direct Messaging",
+            "directMail": "Direct Mail",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        },
+        "agreementTerms": {
+            "title": "Agreement Terms",
+            "selectOptions": "Select Options",
+            "addAgreement": "Add Agreement",
+            "agreementName": "Agreement Name",
+            "agreementText": "Agreement Text",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "agreements": {
+                "cancellation": "Cancellation",
+                "cancellationText": "I agree to contribute the chosen amount on a recurring basis until I cancel my support",
+                "invoice": "Invoice",
+                "invoiceText": "I authorize the chosen amount to be debited from my account",
+                "recurring": "Recurring",
+                "recurringText": "This is a donation that occurs regularly, providing ongoing support to our cause"
+            }
+        },
+        "welcomeEmail": {
+            "title": "Welcome Email",
+            "modifyText": "Modify Text",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "emailTemplate": "<div>Dear ##FIRST_NAME##,</div><div><br></div><div>Thank you for signing up for regular giving and joining our community of supporters. Your commitment to our cause is deeply appreciated and makes a significant impact on our mission. Every contribution helps us continue the vital work we do, and with your support, we are empowered to make a lasting difference in the lives of those we serve.</div><div><br></div><div>Your generosity not only fuels our ongoing projects but also inspires others to join in our efforts. We promise to keep you informed about how your donations are being used and the progress we’re making toward our shared goals.</div><div><br></div><div>Once again, thank you for your dedication and trust. If you have any questions or would like more information about our programs, please feel free to reach out.</div><div><br></div><div>With heartfelt thanks,</div><div><br></div><div>My important charity&nbsp;</div>"
+        }
+    }
+}

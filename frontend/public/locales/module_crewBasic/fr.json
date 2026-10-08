@@ -1,0 +1,35 @@
+{
+    "modules_crewBasic": {
+        "crewPage": {
+            "title": "Gestion de l'équipage",
+            "description": "Gérez vos membres d'équipage ici.",
+            "addCrewMember": "Ajouter un membre d'équipage",
+            "crewListEmpty": "Aucun membre d'équipage trouvé.",
+            "name": "Nom",
+            "lastActivity": "Dernière activité",
+            "nextShift": "Prochain quart",
+            "average": "Moyenne",
+            "averageTooltip": "Nombre moyen d'inscriptions lors des 5 derniers quarts",
+            "notPlanned": "Non planifié",
+            "onShift": "En service",
+            "expected": "Attendu",
+            "operations": "Opérations"
+        },
+        "addCrewModal": {
+            "title": "Ajouter un membre d'équipage",
+            "firstName": "Prénom",
+            "lastName": "Nom de famille",
+            "email": "Adresse e-mail",
+            "inviteEmailPreview": "Aperçu de l'e-mail d'invitation",
+            "invitedTo": "Vous avez été invité à Briggs+Walker",
+            "hi": "Salut",
+            "inviteBody": "Vous avez été ajouté en tant que membre d'équipage sur Briggs+Walker. Appuyez ci-dessous pour configurer votre compte et commencer.",
+            "joinNow": "Rejoindre maintenant",
+            "cancel": "Annuler",
+            "invite": "Inviter un membre d'équipage",
+            "alreadyExists": "Le membre de l'équipage existe déjà",
+            "error": "Une erreur est survenue. Veuillez contacter le support",
+            "success": "Membre de l'équipage invité!"
+        }
+    }
+}

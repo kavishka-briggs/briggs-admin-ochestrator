@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Indietro",
+        "getStartedBtn": "Inizia",
+        "skipBtn": "Salta, configurerò il progetto più tardi",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Lancio tra un momento",
+            "yourProjectIsBeingSetup": "Il tuo progetto è in fase di configurazione",
+            "logout": "Logout"
+        },
+        "amountsInput": {
+            "add": "Aggiungi"
+        },
+        "overview": {
+            "heading": "Configurazione del tuo progetto",
+            "description": "Ci vorranno solo 5 minuti",
+            "projectSettings": {
+                "projectInfo": "Informazioni progetto & SEPA",
+                "projectInfoDescription": "Aggiungi il nome del progetto, le informazioni del cliente e i dettagli di pagamento.",
+                "donationSettings": "Impostazioni donazione",
+                "donationSettingsDescription": "Imposta importi, valuta e regole per i donatori.",
+                "designAndBranding": "Design e marchio",
+                "designAndBrandingDescription": "Aggiorna l'aspetto grafico.",
+                "reachingOut": "Contattare i donatori",
+                "reachingOutDescription": "Scegli come raggiungere i donatori.",
+                "agreementTerms": "Termini dell'accordo",
+                "agreementTermsDescription": "Definisci i termini che i donatori devono accettare.",
+                "welcomeEmail": "Email di benvenuto",
+                "welcomeEmailDescription": "Modifica l'email inviata dopo la registrazione del donatore."
+            }
+        },
+        "projectInfo": {
+            "title": "Informazioni progetto & SEPA",
+            "cancelLabel": "Annulla",
+            "submitLabel": "Invia",
+            "project": "Progetto",
+            "projectName": "Nome del progetto",
+            "projectNamePlaceholder": "Il mio progetto",
+            "client": "Cliente",
+            "clientPlaceholder": "La mia organizzazione benefica",
+            "language": "Lingua",
+            "sepa": "SEPA",
+            "creditorAddress": "Indirizzo creditore",
+            "creditorAddressNamePlaceholder": "Nome",
+            "creditorAddressLinePlaceholder": "Indirizzo",
+            "creditorAddressCityPlaceholder": "Città",
+            "creditorAddressPostalCodePlaceholder": "CAP",
+            "creditorAddressCountryPlaceholder": "Paese",
+            "creatorIDSEPA": "ID creatore (SEPA)",
+            "directDebitStatement": "Dichiarazione di addebito diretto",
+            "languageDropDown": {
+                "dutch": "Olandese",
+                "english": "Inglese",
+                "french": "Francese",
+                "german": "Tedesco",
+                "italian": "Italiano",
+                "portuguese": "Portoghese",
+                "spanish": "Spagnolo"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Parametri donazione",
+            "currency": "Valuta",
+            "amounts": "Importi",
+            "allowFreeInput": "Consenti input libero",
+            "minimumDonationValue": "Valore minimo donazione",
+            "minimumDonorAge": "Età minima donatore",
+            "cancel": "Annulla",
+            "submit": "Invia"
+        },
+        "designAndBranding": {
+            "heading": "Design e marchio",
+            "description": "Aggiorna l'aspetto grafico.",
+            "mainBrandColor": "Colore principale del brand",
+            "projectStyle": "Stile del progetto",
+            "brandLogo": "Logo del brand",
+            "submit": "Invia",
+            "cancel": "Annulla"
+        },
+        "reachingOut": {
+            "title": "Contattare i donatori",
+            "selectOptions": "Seleziona opzioni",
+            "email": "Email",
+            "phone": "Telefono",
+            "directMessaging": "Messaggistica diretta",
+            "directMail": "Posta diretta",
+            "cancel": "Annulla",
+            "submit": "Invia"
+        },
+        "agreementTerms": {
+            "title": "Termini dell'accordo",
+            "selectOptions": "Seleziona opzioni",
+            "addAgreement": "Aggiungi accordo",
+            "agreementName": "Nome accordo",
+            "agreementText": "Testo accordo",
+            "cancel": "Annulla",
+            "submit": "Invia",
+            "agreements": {
+                "cancellation": "Cancellazione",
+                "cancellationText": "Accetto di contribuire con l’importo scelto con cadenza ricorrente finché non annullerò il mio sostegno",
+                "invoice": "Fattura",
+                "invoiceText": "Autorizzo l’addebito dell’importo scelto sul mio conto",
+                "recurring": "Ricorrente",
+                "recurringText": "Si tratta di una donazione ricorrente che offre un sostegno continuo alla nostra causa"
+            }
+        },
+        "welcomeEmail": {
+            "title": "Email di benvenuto",
+            "modifyText": "Modifica testo",
+            "cancel": "Annulla",
+            "submit": "Invia",
+            "emailTemplate": "<div>Caro/a ##FIRST_NAME##,</div><div><br></div><div>Grazie per esserti iscritto/a alle donazioni regolari e per esserti unito/a alla nostra comunità di sostenitori. Il tuo impegno nei confronti della nostra causa è profondamente apprezzato e ha un impatto significativo sulla nostra missione. Ogni contributo ci aiuta a continuare il lavoro vitale che svolgiamo e, con il tuo supporto, siamo in grado di fare una differenza duratura nella vita di coloro che serviamo.</div><div><br></div><div>La tua generosità non solo alimenta i nostri progetti in corso, ma ispira anche altri a unirsi ai nostri sforzi. Promettiamo di tenerti informato/a su come vengono utilizzate le tue donazioni e sui progressi che stiamo facendo verso i nostri obiettivi comuni.</div><div><br></div><div>Ancora una volta, grazie per la tua dedizione e fiducia. Se hai domande o desideri ulteriori informazioni sui nostri programmi, non esitare a contattarci.</div><div><br></div><div>Con sincera gratitudine,</div><div><br></div><div>La mia importante organizzazione benefica&nbsp;</div>"
+        }
+    }
+}

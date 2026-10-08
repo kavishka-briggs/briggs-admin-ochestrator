@@ -1,0 +1,25 @@
+name: DEV - Deploy Plugin to DEV
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to deploy'
+        required: true
+        default: 'development'
+
+jobs:
+  deploy:
+    uses: briggs-walker/plugin-deploy/.github/workflows/frontend-deploy-dev.yaml@development
+    with:
+      repository: ${{ github.event.repository.name }}
+      branch: ${{ github.event.inputs.branch }}
+      
+    secrets:
+      ENVFILE_DEV: ${{ secrets.FRONTEND_ENVFILE_DEV }}
+      CROSSREPO_PAT: ${{ secrets.CROSSREPO_PAT }}
+      ACR_ENDPOINT_DEV: ${{ secrets.ACR_ENDPOINT_DEV }}
+      PULLSECRET_DEV: ${{ secrets.PULLSECRET_DEV }}
+      AZURE_CREDENTIALS_DEV: ${{ secrets.AZURE_CREDENTIALS_DEV }}
+      RESOURCE_GROUP_DEV: ${{ secrets.RESOURCE_GROUP_DEV }}
+      CLUSTER_NAME_DEV: ${{ secrets.CLUSTER_NAME_DEV }}

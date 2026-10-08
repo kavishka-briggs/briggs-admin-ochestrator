@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Gestion des adresses",
+      "breadcrumb-current": "Gérer l'audience",
+      "title": "Étape 1 sur 4 : Choisir la source d'adresses",
+      "subtitle": "Choisissez votre point de départ. Vous pouvez utiliser un ensemble d'adresses prédéfini ou téléverser le vôtre.",
+      "continue": "Continuer",
+      "error-templates": "Une erreur s'est produite lors du chargement des modèles.",
+      "error-projects": "Une erreur s'est produite lors du chargement des projets.",
+      "error-submit": "Une erreur s'est produite lors de la création de l'ensemble d'adresses.",
+      "source": {
+        "title": "Sélectionner la source d'adresses",
+        "template": {
+          "title": "Utiliser un modèle de départ",
+          "description": "Commencez à partir d'un ensemble d'adresses prédéfini.",
+          "label": "Modèle",
+          "available": "{{value}} adresses disponibles"
+        },
+        "upload": {
+          "title": "Téléverser vos propres adresses",
+          "description": "Téléversez un fichier CSV contenant des adresses. Les adresses correspondantes seront utilisées pour créer votre ensemble d'adresses."
+        }
+      },
+      "templates": {
+        "all": "Toutes les adresses",
+        "residential": "Résidentiel",
+        "offices": "Bureaux"
+      },
+      "upload": {
+        "drag-drop": "Glissez-déposez votre CSV ici",
+        "or": "ou",
+        "browse": "Parcourir les fichiers",
+        "replace": "Remplacer le fichier",
+        "csv-only": "CSV uniquement"
+      },
+      "details": {
+        "title": "Détails",
+        "name": "Nom",
+        "name-placeholder": "Saisir le nom de l'ensemble d'adresses",
+        "project": "Projet",
+        "project-placeholder": "Sélectionner un projet",
+        "project-loading": "Chargement des projets...",
+        "remarks": "Remarques",
+        "remarks-placeholder": "Ajouter des remarques (facultatif)"
+      },
+      "source-change": {
+        "title": "Changer la source d'adresses ?",
+        "upload-selected": "Vous avez déjà téléversé un fichier CSV.",
+        "template-selected": "Vous avez déjà sélectionné un modèle de démarrage.",
+        "cancel": "Annuler",
+        "confirm": "Confirmer"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Gestion des adresses",
+      "breadcrumb-current": "Filtrer les zones",
+      "title": "Étape 2 sur 4 : Filtrer les zones",
+      "subtitle": "Choisissez des filtres pour affiner votre ensemble d'adresses.",
+      "select-category": "Sélectionner une catégorie de filtre",
+      "filters-in-category": "Filtres dans cette catégorie",
+      "reset": "Réinitialiser",
+      "loading": "Chargement des filtres...",
+      "no-filters": "Aucun filtre disponible pour cette catégorie.",
+      "error": "Une erreur s'est produite lors du chargement des catégories de filtres.",
+      "invalid-batch-id": "Le lien vers cet ensemble d'adresses est invalide ou expiré.",
+      "error-list": "Une erreur s'est produite lors du chargement des adresses filtrées.",
+      "working-set": {
+        "title": "Résumé de l'ensemble de travail",
+        "total-addresses": "Total des adresses",
+        "included": "Adresses incluses",
+        "included-areas": "Zones incluses"
+      },
+      "neighbourhood-list": {
+        "title": "Résumé des quartiers",
+        "subtitle": "Nombre d'adresses par quartier.",
+        "column-neighbourhood": "Quartier",
+        "column-total": "Total des adresses",
+        "column-included": "Inclus",
+        "column-excluded": "Exclu",
+        "no-results": "Aucun quartier trouvé."
+      },
+      "reset-filters": "Réinitialiser tous les filtres",
+      "apply-filters": "Appliquer les filtres",
+      "finalize": "Finaliser",
+      "finalize-error": {
+        "InvalidRequest": "Le jeu d'adresses n'a pas pu être finalisé car la demande n'est pas valide. Vérifiez les filtres sélectionnés et réessayez.",
+        "UnknownFilterCodes": "Certains filtres sélectionnés ne sont plus disponibles. Réinitialisez les filtres et réessayez.",
+        "BatchNotFound": "Ce jeu d'adresses est introuvable. Revenez en arrière et sélectionnez à nouveau le jeu d'adresses.",
+        "BatchFinalized": "Ce jeu d'adresses a déjà été finalisé.",
+        "Unknown": "Une erreur s'est produite lors de la finalisation du jeu d'adresses."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Gestion des adresses",
+      "breadcrumb-current": "Résumé de l'ensemble d'adresses",
+      "title": "Étape 2 sur 4 : Résumé de l'ensemble d'adresses",
+      "subtitle": "Examinez les adresses trouvées dans votre fichier chargé avant de créer l'ensemble d'adresses."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Gestion des adresses",
+      "breadcrumb-current": "Appliquer l'ensemble d'adresses",
+      "title": "Étape 3 sur 4 : Appliquer l'ensemble d'adresses",
+      "subtitle": "Vérifiez les détails ci-dessous et choisissez comment cet ensemble d'adresses doit être appliqué au projet sélectionné.",
+      "details": {
+        "title": "Détails de l'ensemble d'adresses",
+        "name": "Nom",
+        "project-name": "Nom du projet",
+        "remarks": "Remarques"
+      },
+      "options": {
+        "title": "Comment cet ensemble d'adresses doit-il être appliqué ?",
+        "replace": {
+          "title": "Remplacer les adresses du projet",
+          "description": "Les adresses en dehors de cet ensemble seront marquées comme exclues."
+        },
+        "update": {
+          "title": "Mettre à jour uniquement les adresses sélectionnées",
+          "description": "Seules les adresses de cet ensemble seront mises à jour. Les autres adresses resteront inchangées."
+        }
+      },
+      "back": "Retour",
+      "continue": "Continuer",
+      "invalid-batch-id": "Le lien vers cet ensemble d'adresses est invalide ou expiré.",
+      "error-loading-summary": "Une erreur s'est produite lors du chargement du résumé de l'ensemble d'adresses."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Gestion des adresses",
+      "breadcrumb-current": "Statut de l'ensemble d'adresses",
+      "title": "Étape 4 sur 4 : Statut de l'ensemble d'adresses",
+      "subtitle": "Voir le statut de votre ensemble d'adresses.",
+      "card-title": "Statut de l'ensemble d'adresses",
+      "refresh": "Actualiser",
+      "error": "Une erreur s'est produite lors de la récupération du statut de l'ensemble d'adresses.",
+      "no-data": "Aucune mise à jour de statut n'est disponible pour le moment.",
+      "overall": {
+        "success": "Prêt",
+        "failed": "Échoué",
+        "finalized": "Audience sélectionnée",
+        "processing": "Création…"
+      },
+      "stages": {
+        "finalized": "Audience sélectionnée",
+        "processing": "Création de l'ensemble d'adresses",
+        "success": "Ensemble d'adresses prêt",
+        "failed": "Création échouée"
+      },
+      "detail": {
+        "audience-selected": "Votre audience cible et vos filtres ont été confirmés",
+        "ready": "Votre ensemble d'adresses a été créé et est prêt à être utilisé",
+        "processed": "Génération de l'ensemble d'adresses terminée",
+        "in-progress": "Votre ensemble d'adresses est en cours de création…",
+        "failed": "Votre ensemble d'adresses n'a pas pu être créé."
+      }
+    }
+  }
+}

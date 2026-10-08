@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Fecha",
+            "crewMember": "Miembro de la tripulación",
+            "loggedInOut": "Registrado / Salido",
+            "score": "Puntuación",
+            "shiftEfficiency": "Eficiencia del turno",
+            "scorePerHour": "puntuación por hora",
+            "shifts": "Turnos",
+            "allProjects": "Todos los proyectos",
+            "projectDetails": "Detalles del proyecto",
+            "exportResults": "Exportar resultados",
+            "previewProject": "Vista previa del proyecto",
+            "allCrewMembers": "Todos los miembros de la tripulación",
+            "search": "Buscar",
+            "noCrewMembersFound": "No se encontraron miembros de la tripulación"
+        },
+        "all_projects_page": {
+            "title": "Todos los proyectos",
+            "searchPlaceholder": "Buscar proyectos...",
+            "projectName": "Nombre del proyecto",
+            "projectCode": "Código del proyecto",
+            "campaignCode": "Código de campaña",
+            "domainCode": "Código de dominio",
+            "quickActions": "Acciones rápidas",
+            "shifts": "Turnos",
+            "forms": "Formularios"
+        },
+        "export_results": {
+            "title": "Exportar resultados",
+            "exportPeriod": "Período de exportación",
+            "cancel": "Cancelar",
+            "export": "Exportar",
+            "viewExportHistory": "Ver historial de exportaciones",
+            "description": "Ver y gestionar sus resultados de exportación",
+            "close": "Cerrar",
+            "exportSoon": "Su exportación estará lista pronto"
+        },
+        "exportHistory": {
+            "title": "Historial de exportaciones",
+            "results": "resultados",
+            "exportPeriod": "Período de exportación",
+            "template": "Plantilla",
+            "download": "Descargar CSV",
+            "downloadExpired": "Descarga expirada",
+            "ERROR_MESSAGE_EXPORT_FAILED": "No se pudo generar el enlace de descarga de la exportación. Por favor, inténtelo de nuevo más tarde."
+        },
+        "previewModal": {
+            "title": "Vista Previa del Formulario",
+            "context": "Contexto",
+            "contextDescription": "Seleccione valores para previsualizar el formulario.",
+            "resetContext": "Restablecer contexto",
+            "location": "Ubicación",
+            "channel": "Canal",
+            "domain": "Dominio",
+            "office": "Oficina",
+            "autoUpdateInfo": "La vista previa del formulario se actualizará automáticamente según los valores de contexto seleccionados.",
+            "formVersion": "Versión del formulario",
+            "selectOption": "Seleccionar...",
+            "noOptions": "No hay opciones disponibles",
+            "noLocations": "No hay ubicaciones disponibles",
+            "published": "Publicado",
+            "searchLocation": "Buscar ubicación...",
+            "projectResult": "Resultado del proyecto",
+            "errorLoadContextDetails": "No se pudieron cargar los detalles del contexto. Por favor, inténtelo de nuevo.",
+            "errorLoadLocationContext": "No se pudo cargar el contexto de ubicación. Por favor, inténtelo de nuevo.",
+            "errorLoadAgencyOptions": "No se pudieron cargar las opciones de agencia. Por favor, inténtelo de nuevo.",
+            "errorLoadOfficeOptions": "No se pudieron cargar las opciones de oficina. Por favor, inténtelo de nuevo.",
+            "errorLoadProjectResults": "No se pudieron cargar los resultados del proyecto. Por favor, inténtelo de nuevo.",
+            "errorLoadDomainProjects": "No se pudieron cargar los proyectos de dominio. Por favor, inténtelo de nuevo.",
+            "errorSearchLocations": "No se pudieron buscar ubicaciones. Por favor, inténtelo de nuevo."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Formularios",
+            "projects": "Proyectos",
+            "forms": "Formularios",
+            "selectForm": "Seleccionar formulario",
+            "noFormsFound": "No se encontraron formularios.",
+            "newVersion": "Nueva versión",
+            "description": "Gestione las versiones del formulario seleccionado. Puede previsualizar o publicar una versión para activarla.",
+            "version": "Versión",
+            "createdAt": "Creado el",
+            "published": "Publicado",
+            "actions": "Acciones",
+            "preview": "Vista previa",
+            "publish": "Publicar"
+        }
+    }
+}

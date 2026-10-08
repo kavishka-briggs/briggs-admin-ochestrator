@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Datum",
+            "crewMember": "Crewmitglied",
+            "loggedInOut": "Eingeloggt / Ausgeloggt",
+            "score": "Punktzahl",
+            "shiftEfficiency": "Schichteffizienz",
+            "scorePerHour": "Punkte pro Stunde",
+            "shifts": "Schichten",
+            "allProjects": "Alle Projekte",
+            "projectDetails": "Projektdetails",
+            "exportResults": "Ergebnisse exportieren",
+            "previewProject": "Projectvoorbeeld",
+            "allCrewMembers": "Alle Crewmitglieder",
+            "search": "Suche",
+            "noCrewMembersFound": "Keine Crewmitglieder gefunden"
+        },
+        "all_projects_page": {
+            "title": "Alle Projekte",
+            "searchPlaceholder": "Projekte suchen...",
+            "projectName": "Projektname",
+            "projectCode": "Projektcode",
+            "campaignCode": "Kampagnencode",
+            "domainCode": "Domaincode",
+            "quickActions": "Schnellaktionen",
+            "shifts": "Schichten",
+            "forms": "Formulare"
+        },
+        "export_results": {
+            "title": "Ergebnisse exportieren",
+            "exportPeriod": "Exportzeitraum",
+            "cancel": "Abbrechen",
+            "export": "Exportieren",
+            "viewExportHistory": "Exportverlauf anzeigen",
+            "description": "Sehen und verwalten Sie Ihre Exportergebnisse",
+            "close": "Schließen",
+            "exportSoon": "Ihr Export wird in Kürze bereitstehen"
+        },
+        "exportHistory": {
+            "title": "Exportverlauf",
+            "results": "Ergebnisse",
+            "exportPeriod": "Exportzeitraum",
+            "template": "Vorlage",
+            "download": "CSV herunterladen",
+            "downloadExpired": "Download abgelaufen",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Download-Link für den Export konnte nicht generiert werden. Bitte versuchen Sie es später erneut."
+        },
+        "previewModal": {
+            "title": "Formularvorschau",
+            "context": "Kontext",
+            "contextDescription": "Wählen Sie Werte aus, um das Formular zu simulieren.",
+            "resetContext": "Kontext zurücksetzen",
+            "location": "Standort",
+            "channel": "Kanal",
+            "domain": "Domäne",
+            "office": "Büro",
+            "autoUpdateInfo": "Die Formularvorschau wird automatisch aktualisiert, wenn Sie die Kontextwerte ändern.",
+            "formVersion": "Formularversion",
+            "selectOption": "Auswählen...",
+            "noOptions": "Keine Optionen verfügbar",
+            "noLocations": "Keine Standorte verfügbar",
+            "published": "Veröffentlicht",
+            "searchLocation": "Standort suchen...",
+            "projectResult": "Projektergebnis",
+            "errorLoadContextDetails": "Kontextdetails konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorLoadLocationContext": "Standortkontext konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorLoadAgencyOptions": "Agenturoptionen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorLoadOfficeOptions": "Bürooptionen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorLoadProjectResults": "Projektergebnisse konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorLoadDomainProjects": "Domänenprojekte konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+            "errorSearchLocations": "Standorte konnten nicht gesucht werden. Bitte versuchen Sie es erneut."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Formulare",
+            "projects": "Projekte",
+            "forms": "Formulare",
+            "selectForm": "Formular auswählen",
+            "noFormsFound": "Keine Formulare gefunden.",
+            "newVersion": "Neue Version",
+            "description": "Verwalten Sie die Versionen des ausgewählten Formulars. Sie können eine Version in der Vorschau anzeigen oder veröffentlichen, um sie zu aktivieren.",
+            "version": "Version",
+            "createdAt": "Erstellt am",
+            "published": "Veröffentlicht",
+            "actions": "Aktionen",
+            "preview": "Vorschau",
+            "publish": "Veröffentlichen"
+        }
+    }
+}

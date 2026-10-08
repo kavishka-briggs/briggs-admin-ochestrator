@@ -1,0 +1,24 @@
+{
+    "module_orchestrator": {
+        "sideBar": {
+            "quarterCompletion": "Achèvement du trimestre",
+            "dashboard": "Tableau de bord",
+            "crew": "Équipage",
+            "projects": "Projets",
+            "missionControl": "Mission Control",
+            "overview": "Vue d'ensemble",
+            "office": "Bureau",
+            "account": "Compte",
+            "recruitment": "Recrutement",
+            "projectWizard": "Projets",
+            "addressManagement": "Gestion des adresses",
+            "heatMap": "Carte thermique",
+            "createAddressSet": "Gérer l'audience",
+            "logOut": "Se déconnecter",
+            "quarters": "Trimestres"
+        },
+        "projectWizardProgress": {
+            "completeSetup": "Terminer la configuration"
+        }
+    }
+}

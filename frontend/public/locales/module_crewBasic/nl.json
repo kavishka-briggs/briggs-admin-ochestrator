@@ -1,0 +1,35 @@
+{
+    "modules_crewBasic": {
+        "crewPage": {
+            "title": "Crewbeheer",
+            "description": "Beheer hier uw bemanningsleden.",
+            "addCrewMember": "Bemanningslid toevoegen",
+            "crewListEmpty": "Geen bemanningsleden gevonden.",
+            "name": "Naam",
+            "lastActivity": "Laatste activiteit",
+            "nextShift": "Volgende dienst",
+            "average": "Gemiddelde",
+            "averageTooltip": "Gemiddeld aantal inschrijvingen tijdens de laatste 5 diensten",
+            "notPlanned": "Niet gepland",
+            "onShift": "Op dienst",
+            "expected": "Verwacht",
+            "operations": "Operaties"
+        },
+        "addCrewModal": {
+            "title": "Voeg bemanningslid toe",
+            "firstName": "Voornaam",
+            "lastName": "Achternaam",
+            "email": "-mailadres",
+            "inviteEmailPreview": "Voorbeeld van uitnodigingsmail",
+            "invitedTo": "Je bent uitgenodigd voor Briggs+Walker",
+            "hi": "Hallo",
+            "inviteBody": "Je bent toegevoegd als bemanningslid op Briggs+Walker. Tik hieronder om je account in te stellen en aan de slag te gaan.",
+            "joinNow": "Word nu lid",
+            "cancel": "Annuleren",
+            "invite": "Nodig bemanningslid uit",
+            "alreadyExists": "Bemanningslid bestaat al",
+            "error": "Er is een fout opgetreden. Neem contact op met de ondersteuning",
+            "success": "Bemanningslid uitgenodigd!"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@config '../tailwind.config.js';
+
+.sub-menu {
+    z-index: 1;
+}

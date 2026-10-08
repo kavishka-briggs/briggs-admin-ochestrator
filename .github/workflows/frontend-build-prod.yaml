@@ -1,0 +1,21 @@
+name: PROD - Build & Push Plugin to PROD
+
+on:
+    workflow_dispatch:
+
+
+jobs:
+  build:
+    uses: briggs-walker/plugin-deploy/.github/workflows/frontend-build-prod.yaml@main      
+    secrets: 
+      CROSSREPO_PAT: ${{ secrets.CROSSREPO_PAT }}
+      ACR_ENDPOINT_PROD: ${{ secrets.ACR_ENDPOINT_PROD }}
+      ACR_USERNAME_PROD: ${{ secrets.ACR_USERNAME_PROD }}
+      ACR_PASSWORD_PROD: ${{ secrets.ACR_PASSWORD_PROD }}
+      GH_NPM_TOKEN_CLASSIC: ${{ secrets.GH_NPM_TOKEN_CLASSIC }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+    with:
+      repository: ${{ github.event.repository.name }}
+      branch: main

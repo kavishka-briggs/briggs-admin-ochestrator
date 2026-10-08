@@ -1,0 +1,35 @@
+{
+    "modules_crewBasic": {
+        "crewPage": {
+            "title": "Gestión de tripulación",
+            "description": "Administre a los miembros de su tripulación aquí.",
+            "addCrewMember": "Agregar miembro de la tripulación",
+            "crewListEmpty": "No se encontraron miembros de la tripulación.",
+            "name": "Nombre",
+            "lastActivity": "Última actividad",
+            "nextShift": "Próximo turno",
+            "average": "Promedio",
+            "averageTooltip": "Promedio de inscripciones durante los últimos 5 turnos",
+            "notPlanned": "No planificado",
+            "onShift": "En turno",
+            "expected": "Esperado",
+            "operations": "Operaciones"
+        },
+        "addCrewModal": {
+            "title": "Agregar miembro de la tripulación",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Dirección de correo electrónico",
+            "inviteEmailPreview": "Vista previa del correo electrónico de invitación",
+            "invitedTo": "Has sido invitado a Briggs+Walker",
+            "hi": "Hola",
+            "inviteBody": "Has sido agregado como miembro de la tripulación en Briggs+Walker. Toca a continuación para configurar tu cuenta y comenzar.",
+            "joinNow": "Unirse ahora",
+            "cancel": "Cancelar",
+            "invite": "Invitar a un miembro de la tripulación",
+            "alreadyExists": "El miembro de la tripulación ya existe",
+            "error": "Ha ocurrido un error. Por favor, contacta con el soporte",
+            "success": "¡Miembro de la tripulación invitado!"
+        }
+    }
+}

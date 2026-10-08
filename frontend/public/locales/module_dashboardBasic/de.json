@@ -1,0 +1,90 @@
+{
+    "module_dashboardBasic": {
+        "dashboard_page": {
+            "heyThere": "Hallo,",
+            "hereIsWhatsHappening": "Hier ist, was heute in deinem Briggs+Walker-Konto passiert.",
+            "overview": {
+                "title": "Übersicht",
+                "shifts": "Schichten",
+                "signups": "Anmeldungen",
+                "donationValue": "Spendenwert",
+                "avgShiftValue": "Durchschn. Schichtwert"
+            },
+            "quickActions": {
+                "title": "Schnellaktionen",
+                "manageProject": "Projekt verwalten",
+                "manageCrew": "Team verwalten",
+                "startFundraising": "Fundraising starten",
+                "exportResults": "Ergebnisse exportieren",
+                "fundraisingInstructions": "Um mit dem Fundraising zu beginnen, lade die Field App aus dem App Store herunter. Scanne den untenstehenden Link mit dem Gerät, das du im Feld verwenden möchtest, oder klicke auf die Links unten.",
+                "useCredentials": "Verwende deine Zugangsdaten von dieser Plattform, um dich anzumelden.",
+                "useWeb": "Web-Oberfläche verwenden",
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web"
+            },
+            "daily_activity": {
+                "title": "Tagesaktivität",
+                "noActivity": "Noch keine Aktivität",
+                "noActivityDescription": "Sobald dein Team hinzugefügt und aktiv ist, siehst du hier in Echtzeit Updates.",
+                "shiftSignin": "{{crew}}-{{marketing}} hat seine Schicht begonnen.",
+                "shiftClosed": "{{crew}}-{{marketing}} hat seine Schicht beendet.",
+                "resultNew": "{{office}}-{{marketing}} hat eine neue Anmeldung gemacht: {{description}}",
+                "timeline": {
+                    "yesterday": "Gestern"
+                }
+            },
+            "planning": {
+                "title": "Planung",
+                "previousWeek": "Vorherige Woche",
+                "nextWeek": "Nächste Woche",
+                "noShiftScheduled": "Keine Schicht geplant",
+                "setUpProject": "Richte dein Projekt und Team ein, um mit der Planung und Zuweisung von Schichten im Kalender zu beginnen",
+                "crewAssigned": "Teammitglied einer Schicht zugewiesen!",
+                "deleteShift": "Schicht löschen",
+                "deleteShiftConfirm": "Bist du sicher, dass du diese Schicht löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+                "cancel": "Abbrechen",
+                "delete": "Löschen",
+                "error": "Fehler aufgetreten! Bitte wende dich an den Administrator!",
+                "assignCrew": "Team zuweisen",
+                "invalidProjectHeading": "Projekt nicht gefunden!",
+                "invalidProjectDescription": "Bitte schließe den Projektassistenten ab, um fortzufahren.",
+                "days": {
+                    "SUN": "SON",
+                    "MON": "MON",
+                    "TUE": "DIE",
+                    "WED": "MIT",
+                    "THU": "DON",
+                    "FRI": "FRI",
+                    "SAT": "SAM"
+                }
+            }
+        },
+        "addCrewModal": {
+            "title": "Teammitglied hinzufügen",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "E-Mail-Adresse",
+            "inviteEmailPreview": "Vorschau der Einladungsemail",
+            "invitedTo": "Du wurdest zu Briggs+Walker eingeladen",
+            "hi": "Hallo",
+            "inviteBody": "Du wurdest als Teammitglied bei Briggs+Walker hinzugefügt. Tippe unten, um dein Konto einzurichten und loszulegen.",
+            "joinNow": "Jetzt beitreten",
+            "cancel": "Abbrechen",
+            "invite": "Teammitglied einladen",
+            "alreadyExists": "Teammitglied existiert bereits",
+            "error": "Ein Fehler ist aufgetreten. Bitte wende dich an den Support"
+        },
+        "assignCrewModal": {
+            "title": "Teammitglied zuweisen",
+            "selectCrew": "Teammitglied auswählen",
+            "assign": "Zuweisen",
+            "cancel": "Abbrechen",
+            "success": "Teammitglied erfolgreich zugewiesen!",
+            "alreadyAssigned": "Für das angegebene Datum wurde bereits eine Schicht zugewiesen.",
+            "error": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+            "addCrewMember": "Teammitglied hinzufügen",
+            "searchPlaceholder": "Suche"
+        }
+    }
+}

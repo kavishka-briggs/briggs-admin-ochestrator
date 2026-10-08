@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Terug",
+        "getStartedBtn": "Aan de slag",
+        "skipBtn": "Overslaan, ik stel het project later in",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Binnen een ogenblik wordt gestart",
+            "yourProjectIsBeingSetup": "Uw project wordt ingesteld",
+            "logout": "Afmelden"
+        },
+        "amountsInput": {
+            "add": "Toevoegen"
+        },
+        "overview": {
+            "heading": "Uw project instellen",
+            "description": "Dit duurt slechts 5 minuten",
+            "projectSettings": {
+                "projectInfo": "Projectinformatie & SEPA",
+                "projectInfoDescription": "Voeg uw projectnaam, klantinformatie en betalingsgegevens toe.",
+                "donationSettings": "Donatie-instellingen",
+                "donationSettingsDescription": "Stel donatiebedragen, valuta en donateursregels in.",
+                "designAndBranding": "Ontwerp & Branding",
+                "designAndBrandingDescription": "Werk het uiterlijk en gevoel bij.",
+                "reachingOut": "Donateurs benaderen",
+                "reachingOutDescription": "Kies hoe u donateurs wilt benaderen.",
+                "agreementTerms": "Overeenkomstvoorwaarden",
+                "agreementTermsDescription": "Definieer de voorwaarden waaraan donateurs moeten voldoen.",
+                "welcomeEmail": "Welkomstmail",
+                "welcomeEmailDescription": "Bewerk de e-mail die wordt verzonden nadat een donateur zich heeft aangemeld."
+            }
+        },
+        "projectInfo": {
+            "title": "Projectinformatie & SEPA",
+            "cancelLabel": "Annuleren",
+            "submitLabel": "Verzenden",
+            "project": "Project",
+            "projectName": "Projectnaam",
+            "projectNamePlaceholder": "Mijn project",
+            "client": "Klant",
+            "clientPlaceholder": "Mijn Belangrijke Goed Doel",
+            "language": "Taal",
+            "sepa": "SEPA",
+            "creditorAddress": "Crediteuradres",
+            "creditorAddressNamePlaceholder": "Naam",
+            "creditorAddressLinePlaceholder": "Adresregel",
+            "creditorAddressCityPlaceholder": "Stad",
+            "creditorAddressPostalCodePlaceholder": "Postcode",
+            "creditorAddressCountryPlaceholder": "Land",
+            "creatorIDSEPA": "Creator-ID (SEPA)",
+            "directDebitStatement": "Automatische incasso verklaring",
+            "languageDropDown": {
+                "dutch": "Nederlands",
+                "english": "Engels",
+                "french": "Frans",
+                "german": "Duits",
+                "italian": "Italiaans",
+                "portuguese": "Portugees",
+                "spanish": "Spaans"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Donatieparameters",
+            "currency": "Valuta",
+            "amounts": "Bedragen",
+            "allowFreeInput": "Vrije invoer toestaan",
+            "minimumDonationValue": "Minimale donatiebedrag",
+            "minimumDonorAge": "Minimumleeftijd donateur",
+            "cancel": "Annuleren",
+            "submit": "Verzenden"
+        },
+        "designAndBranding": {
+            "heading": "Ontwerp & Branding",
+            "description": "Werk het uiterlijk en gevoel bij.",
+            "mainBrandColor": "Hoofdkleur merk",
+            "projectStyle": "Projectstijl",
+            "brandLogo": "Merklogo",
+            "submit": "Verzenden",
+            "cancel": "Annuleren"
+        },
+        "reachingOut": {
+            "title": "Donateurs benaderen",
+            "selectOptions": "Selecteer opties",
+            "email": "E-mail",
+            "phone": "Telefoon",
+            "directMessaging": "Directe berichten",
+            "directMail": "Direct mail",
+            "cancel": "Annuleren",
+            "submit": "Verzenden"
+        },
+        "agreementTerms": {
+            "title": "Overeenkomstvoorwaarden",
+            "selectOptions": "Selecteer opties",
+            "addAgreement": "Overeenkomst toevoegen",
+            "agreementName": "Naam overeenkomst",
+            "agreementText": "Overeenkomsttekst",
+            "cancel": "Annuleren",
+            "submit": "Verzenden",
+            "agreements": {
+                "cancellation": "Annulering",
+                "cancellationText": "Ik ga akkoord om het gekozen bedrag periodiek bij te dragen totdat ik mijn steun opzeg",
+                "invoice": "Factuur",
+                "invoiceText": "Ik machtig het gekozen bedrag van mijn rekening af te schrijven",
+                "recurring": "Herhalend",
+                "recurringText": "Dit is een terugkerende donatie die voortdurende steun biedt aan onze zaak"
+            }
+        },
+        "welcomeEmail": {
+            "title": "Welkomstmail",
+            "modifyText": "Tekst aanpassen",
+            "cancel": "Annuleren",
+            "submit": "Verzenden",
+            "emailTemplate": "<div>Beste ##FIRST_NAME##,</div><div><br></div><div>Bedankt voor je aanmelding voor reguliere donaties en voor het aansluiten bij onze gemeenschap van supporters. Je betrokkenheid bij onze zaak wordt diep gewaardeerd en heeft een aanzienlijke impact op onze missie. Elke bijdrage helpt ons om het vitale werk dat we doen voort te zetten, en met jouw steun zijn we in staat om een blijvende impact te maken in het leven van degenen die we bedienen.</div><div><br></div><div>Jouw vrijgevigheid voedt niet alleen onze lopende projecten, maar inspireert ook anderen om zich bij onze inspanningen aan te sluiten. We beloven je op de hoogte te houden van hoe jouw donaties worden gebruikt en de voortgang die we boeken richting onze gezamenlijke doelen.</div><div><br></div><div>Nogmaals bedankt voor je toewijding en vertrouwen. Als je vragen hebt of meer informatie wilt over onze programma's, neem dan gerust contact met ons op.</div><div><br></div><div>Met oprechte dank,</div><div><br></div><div>Mijn belangrijke liefdadigheidsorganisatie&nbsp;</div>"
+        }
+    }
+}

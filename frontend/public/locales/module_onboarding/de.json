@@ -1,0 +1,105 @@
+{
+    "module_onboarding": {
+        "accountCreatingPage": {
+            "almostThere": "Fast geschafft...",
+            "yourAccountIsBeingCreated": "Ihr Konto wird erstellt...",
+            "logoutButtonLabel": "Abmelden"
+        },
+        "onboardingPage": {
+            "backButtonLabel": "Zurück",
+            "continueButtonLabel": "Weiter",
+            "createAccountButtonLabel": "Konto erstellen",
+            "organizationAlreadyExists": "Eine Organisation mit diesem Namen existiert bereits. Bitte wählen Sie einen anderen Namen.",
+            "errorWhileUpdatingUserInfo": "Beim Aktualisieren der Benutzerinformationen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+            "errorWhileSettingSignature": "Beim Festlegen Ihrer Unterschrift ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+            "errorWhileCreatingOrganization": "Beim Erstellen Ihrer Organisation ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+            "gettingToKnowYou": {
+                "gettingToKnowYou": "Wir möchten Sie kennenlernen",
+                "language": "Sprache",
+                "firstName": "Vorname",
+                "lastName": "Nachname",
+                "mobileNumber": "Handynummer",
+                "explanationOrReasonWhyWeAskForThis": "Wir benötigen Ihre Telefonnummer, um dringende Probleme, die zu komplex oder zeitkritisch für E-Mails sind, schnell zu lösen.",
+                "jobTitle": "Berufsbezeichnung",
+                "mobileNumberError": "Bitte geben Sie eine gültige Handynummer ein",
+                "languageDropDown": {
+                    "dutch": "Niederländisch",
+                    "english": "Englisch",
+                    "french": "Französisch",
+                    "german": "Deutsch",
+                    "italian": "Italienisch",
+                    "portuguese": "Portugiesisch",
+                    "spanish": "Spanisch"
+                }
+            },
+            "companyOnboarding": {
+                "typeHerePlaceholder": "Hier eingeben",
+                "tellUsAboutYourCompany": "Erzählen Sie uns von Ihrem Unternehmen",
+                "companyName": "Firmenname",
+                "companyNameUnavailableError": "Firmenname ist bereits vergeben.",
+                "industry": "Branche",
+                "industryOptions": {
+                    "nonProfit": "Gemeinnützig",
+                    "agency": "Agentur",
+                    "other": "Andere"
+                },
+                "numberOfFundraisers": "Anzahl der Fundraiser",
+                "legalEntityName": "Juristischer Name",
+                "companyWebsite": "Unternehmenswebseite",
+                "companyWebsiteError": "Bitte geben Sie die Unternehmenswebseite mit https:// ein",
+                "companyCountry": "Land des Unternehmens",
+                "selectCountryLabel": "Land auswählen",
+                "companyAddress": "Unternehmensadresse",
+                "chamberOfCommerceNumber": "Handelsregisternummer",
+                "country": {
+                    "germany": "Deutschland",
+                    "netherlands": "Niederlande",
+                    "belgium": "Belgien",
+                    "sweden": "Schweden",
+                    "luxembourg": "Luxemburg",
+                    "france": "Frankreich",
+                    "denmark": "Dänemark",
+                    "spain": "Spanien",
+                    "ireland": "Irland",
+                    "italy": "Italien",
+                    "unitedKingdom": "Vereinigtes Königreich",
+                    "portugal": "Portugal"
+                },
+                "addressLine": "Adresszeile",
+                "postalCode": "Postleitzahl",
+                "city": "Stadt",
+                "countryLabel": "Land"
+            },
+            "legalPage": {
+                "letsGo": "Los geht's!",
+                "description": "Wir freuen uns, dass Sie mit uns Spenden sammeln werden.\n\nLassen Sie uns die Formalitäten erledigen.",
+                "pleaseAgreeToTheFollowing": "Bitte stimmen Sie Folgendem zu:",
+                "legalSelection1": "Ich habe alle Informationen korrekt ausgefüllt",
+                "legalSelection2": "Ich erkläre, dass ich berechtigt bin, ein Konto im Namen dieses Unternehmens zu erstellen",
+                "legalSelection3": "Ich erkläre, dass wir nur Projekte für Partner durchführen, die uns autorisiert haben",
+                "iAgreeToThe": "Ich stimme den",
+                "termsAndConditions": "Allgemeinen Geschäftsbedingungen",
+                "privacyPolicy": "Datenschutzerklärung",
+                "ofCompanyName": "von Briggs+Walker",
+                "legalSection4TagLine": "Die Allgemeinen Geschäftsbedingungen beinhalten die Datenverarbeitungsvereinbarung und die Fair-Use-Policy"
+            }
+        },
+        "signup": {
+            "invalidEmail": "Ungültige E-Mail! Bitte versuchen Sie es erneut!",
+            "emailExists": "E-Mail existiert bereits! Bitte versuchen Sie es mit einer anderen E-Mail.",
+            "errorOccurred": "Beim Erstellen Ihres Kontos ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+            "tooManyRequests": "Zu viele Anfragen. Bitte versuchen Sie es später erneut.",
+            "createAccountTitle": "Erstellen Sie Ihr kostenloses Konto",
+            "createAccountSubtitle": "Der einfachste Weg, F2F-Kampagnen durchzuführen. Keine Kosten, kein Code.",
+            "emailLabel": "E-Mail",
+            "emailPlaceholder": "john@beispiel.de",
+            "alreadyHaveAccount": "Sie haben bereits ein Konto? ",
+            "login": "Anmelden",
+            "youveGotMail": "Sie haben Post",
+            "emailSentTo": "Eine E-Mail wurde an {{email}} gesendet.",
+            "clickLinkToConfirm": "Klicken Sie auf den Link, um Ihr Konto zu bestätigen",
+            "comingSoon": "Demnächst verfügbar....",
+            "createAccountButton": "Konto erstellen"
+        }
+    }
+}

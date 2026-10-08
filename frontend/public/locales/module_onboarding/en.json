@@ -1,0 +1,105 @@
+{
+    "module_onboarding": {
+        "accountCreatingPage": {
+            "almostThere": "Almost there...",
+            "yourAccountIsBeingCreated": "Your account is being created",
+            "logoutButtonLabel": "Logout"
+        },
+        "onboardingPage": {
+            "backButtonLabel": "Back",
+            "continueButtonLabel": "Continue",
+            "createAccountButtonLabel": "Create Account",
+            "organizationAlreadyExists": "An organization with this name already exists. Please choose a different name.",
+            "errorWhileUpdatingUserInfo": "An error occurred while updating user information. Please try again later.",
+            "errorWhileSettingSignature": "An error occurred while setting your signature. Please try again later.",
+            "errorWhileCreatingOrganization": "An error occurred while creating your organization. Please try again later.",
+            "gettingToKnowYou": {
+                "gettingToKnowYou": "Getting to know you",
+                "language": "Language",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "mobileNumber": "Mobile Number",
+                "explanationOrReasonWhyWeAskForThis": "We require your phone number to quickly resolve urgent issues that are too complex or time-sensitive for email.",
+                "jobTitle": "Job Title",
+                "mobileNumberError": "Please enter a valid mobile number",
+                "languageDropDown": {
+                    "dutch": "Dutch",
+                    "english": "English",
+                    "french": "French",
+                    "german": "German",
+                    "italian": "Italian",
+                    "portuguese": "Portuguese",
+                    "spanish": "Spanish"
+                }
+            },
+            "companyOnboarding": {
+                "typeHerePlaceholder": "Type here",
+                "tellUsAboutYourCompany": "Tell us about your company",
+                "companyName": "Company Name",
+                "companyNameUnavailableError": "Company name is already taken.",
+                "industry": "Industry",
+                "industryOptions": {
+                    "nonProfit": "Non-profit",
+                    "agency": "Agency",
+                    "other": "Other"
+                },
+                "numberOfFundraisers": "Number of fundraisers",
+                "legalEntityName": "Legal Entity Name",
+                "companyWebsite": "Company Website",
+                "companyWebsiteError": "Please enter company website with https://",
+                "companyCountry": "Company Country",
+                "selectCountryLabel": "Select a country",
+                "companyAddress": "Company Address",
+                "chamberOfCommerceNumber": "Chamber of Commerce number",
+                "country": {
+                    "germany": "Germany",
+                    "netherlands": "Netherlands",
+                    "belgium": "Belgium",
+                    "sweden": "Sweden",
+                    "luxembourg": "Luxembourg",
+                    "france": "France",
+                    "denmark": "Denmark",
+                    "spain": "Spain",
+                    "ireland": "Ireland",
+                    "italy": "Italy",
+                    "unitedKingdom": "United Kingdom",
+                    "portugal": "Portugal"
+                },
+                "addressLine": "Address Line",
+                "postalCode": "Postal Code",
+                "city": "City",
+                "countryLabel": "Country"
+            },
+            "legalPage": {
+                "letsGo": "Let's go!",
+                "description": "We are thrilled you will start fundraising with us, \n\n lets get the paperwork out of the way.",
+                "pleaseAgreeToTheFollowing": "Please agree to the following:",
+                "legalSelection1": "I've filled out all information correctly",
+                "legalSelection2": "I declare that I'm authorised to create an account on behalve of this company",
+                "legalSelection3": "I declare that we'll only execute projects for partners that have authorised us",
+                "iAgreeToThe": "I agree to the",
+                "termsAndConditions": "Terms and Conditions",
+                "privacyPolicy": "Privacy Policy",
+                "ofCompanyName": "of Briggs+Walker",
+                "legalSection4TagLine": "The Terms & Conditions includes the data processing agreement and Fair use policy"
+            }
+        },
+        "signup": {
+            "invalidEmail": "Invalid email! Please try again!",
+            "emailExists": "Email already exists! Please try again with a different email.",
+            "errorOccurred": "An error occurred while creating your account. Please try again later.",
+            "tooManyRequests": "Too many requests. Please try again later.",
+            "createAccountTitle": "Create your free account",
+            "createAccountSubtitle": "The easiest way to run F2F campaigns. No costs, no code.",
+            "emailLabel": "Email",
+            "emailPlaceholder": "john@example.com",
+            "alreadyHaveAccount": "Already have an account? ",
+            "login": "Log In",
+            "youveGotMail": "You've got mail",
+            "emailSentTo": "An email has been sent to {{email}}.",
+            "clickLinkToConfirm": "Click the link to confirm your account",
+            "comingSoon": "Coming soon....",
+            "createAccountButton": "Create Account"
+        }
+    }
+}

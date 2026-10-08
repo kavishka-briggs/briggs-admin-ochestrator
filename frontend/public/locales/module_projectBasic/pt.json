@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Data",
+            "crewMember": "Membro da Equipe",
+            "loggedInOut": "Entrou / Saiu",
+            "score": "Pontuação",
+            "shiftEfficiency": "Eficiência do Turno",
+            "scorePerHour": "pontuação por hora",
+            "shifts": "Turnos",
+            "allProjects": "Todos os Projetos",
+            "projectDetails": "Detalhes do Projeto",
+            "exportResults": "Exportar Resultados",
+            "previewProject": "Visualizar Projeto",
+            "allCrewMembers": "Todos os Membros da Equipe",
+            "search": "Pesquisar",
+            "noCrewMembersFound": "Nenhum membro da equipe encontrado"
+        },
+        "all_projects_page": {
+            "title": "Todos os Projetos",
+            "searchPlaceholder": "Pesquisar projetos...",
+            "projectName": "Nome do Projeto",
+            "projectCode": "Código do Projeto",
+            "campaignCode": "Código da Campanha",
+            "domainCode": "Código do Domínio",
+            "quickActions": "Ações Rápidas",
+            "shifts": "Turnos",
+            "forms": "Formulários"
+        },
+        "export_results": {
+            "title": "Exportar Resultados",
+            "exportPeriod": "Período de Exportação",
+            "cancel": "Cancelar",
+            "export": "Exportar",
+            "viewExportHistory": "Ver Histórico de Exportação",
+            "description": "Visualize e gerencie seus resultados de exportação",
+            "close": "Fechar",
+            "exportSoon": "Sua exportação estará pronta em breve"
+        },
+        "exportHistory": {
+            "title": "Histórico de Exportação",
+            "results": "resultados",
+            "exportPeriod": "Período de Exportação",
+            "template": "Modelo",
+            "download": "Baixar CSV",
+            "downloadExpired": "Download expirado",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Falha ao gerar o link de download da exportação. Por favor, tente novamente mais tarde."
+        },
+        "previewModal": {
+            "title": "Pré-Visualização do Formulário",
+            "context": "Contexto",
+            "contextDescription": "Selecione valores para visualizar o formulário.",
+            "resetContext": "Redefinir contexto",
+            "location": "Localização",
+            "channel": "Canal",
+            "domain": "Domínio",
+            "office": "Escritório",
+            "autoUpdateInfo": "A visualização do formulário será atualizada automaticamente com base nos valores de contexto selecionados.",
+            "formVersion": "Versão do formulário",
+            "selectOption": "Selecionar...",
+            "noOptions": "Nenhuma opção disponível",
+            "noLocations": "Nenhuma localização disponível",
+            "published": "Publicado",
+            "searchLocation": "Pesquisar localização...",
+            "projectResult": "Resultado do projeto",
+            "errorLoadContextDetails": "Falha ao carregar os detalhes do contexto. Tente novamente.",
+            "errorLoadLocationContext": "Falha ao carregar o contexto de localização. Tente novamente.",
+            "errorLoadAgencyOptions": "Falha ao carregar as opções de agência. Tente novamente.",
+            "errorLoadOfficeOptions": "Falha ao carregar as opções de escritório. Tente novamente.",
+            "errorLoadProjectResults": "Falha ao carregar os resultados do projeto. Tente novamente.",
+            "errorLoadDomainProjects": "Falha ao carregar os projetos de domínio. Tente novamente.",
+            "errorSearchLocations": "Falha ao pesquisar localizações. Tente novamente."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Formulários",
+            "projects": "Projetos",
+            "forms": "Formulários",
+            "selectForm": "Selecionar formulário",
+            "noFormsFound": "Nenhum formulário encontrado.",
+            "newVersion": "Nova versão",
+            "description": "Gerencie as versões do formulário selecionado. Você pode visualizar ou publicar uma versão para torná-la ativa.",
+            "version": "Versão",
+            "createdAt": "Criado em",
+            "published": "Publicado",
+            "actions": "Ações",
+            "preview": "Visualizar",
+            "publish": "Publicar"
+        }
+    }
+}

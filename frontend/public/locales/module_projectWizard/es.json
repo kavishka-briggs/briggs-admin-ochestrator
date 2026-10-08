@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Atrás",
+        "getStartedBtn": "Comenzar",
+        "skipBtn": "Omitir, configuraré el proyecto más tarde",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Lanzando en solo un momento",
+            "yourProjectIsBeingSetup": "Su proyecto está siendo configurado",
+            "logout": "Cerrar sesión"
+        },
+        "amountsInput": {
+            "add": "Agregar"
+        },
+        "overview": {
+            "heading": "Configurando tu proyecto",
+            "description": "Esto solo tomará 5 minutos",
+            "projectSettings": {
+                "projectInfo": "Información del proyecto y SEPA",
+                "projectInfoDescription": "Agrega el nombre de tu proyecto, información del cliente y detalles de pago.",
+                "donationSettings": "Configuración de donaciones",
+                "donationSettingsDescription": "Establece los montos de donación, moneda y reglas para donantes.",
+                "designAndBranding": "Diseño y marca",
+                "designAndBrandingDescription": "Actualiza la apariencia y el estilo.",
+                "reachingOut": "Contactando a los donantes",
+                "reachingOutDescription": "Elige cómo te comunicarás con los donantes.",
+                "agreementTerms": "Términos del acuerdo",
+                "agreementTermsDescription": "Define los términos que los donantes deben aceptar.",
+                "welcomeEmail": "Correo de bienvenida",
+                "welcomeEmailDescription": "Edita el correo que se envía después de que un donante se registre."
+            }
+        },
+        "projectInfo": {
+            "title": "Información del proyecto y SEPA",
+            "cancelLabel": "Cancelar",
+            "submitLabel": "Enviar",
+            "project": "Proyecto",
+            "projectName": "Nombre del proyecto",
+            "projectNamePlaceholder": "Mi Proyecto",
+            "client": "Cliente",
+            "clientPlaceholder": "Mi Caridad Importante",
+            "language": "Idioma",
+            "sepa": "SEPA",
+            "creditorAddress": "Dirección del acreedor",
+            "creditorAddressNamePlaceholder": "Nombre",
+            "creditorAddressLinePlaceholder": "Línea de dirección",
+            "creditorAddressCityPlaceholder": "Ciudad",
+            "creditorAddressPostalCodePlaceholder": "Código postal",
+            "creditorAddressCountryPlaceholder": "País",
+            "creatorIDSEPA": "ID del creador (SEPA)",
+            "directDebitStatement": "Declaración de débito directo",
+            "languageDropDown": {
+                "dutch": "Neerlandés",
+                "english": "Inglés",
+                "french": "Francés",
+                "german": "Alemán",
+                "italian": "Italiano",
+                "portuguese": "Portugués",
+                "spanish": "Español"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Parámetros de donación",
+            "currency": "Moneda",
+            "amounts": "Montos",
+            "allowFreeInput": "Permitir entrada libre",
+            "minimumDonationValue": "Valor mínimo de donación",
+            "minimumDonorAge": "Edad mínima del donante",
+            "cancel": "Cancelar",
+            "submit": "Enviar"
+        },
+        "designAndBranding": {
+            "heading": "Diseño y marca",
+            "description": "Actualiza la apariencia y el estilo.",
+            "mainBrandColor": "Color principal de la marca",
+            "projectStyle": "Estilo del proyecto",
+            "brandLogo": "Logo de la marca",
+            "submit": "Enviar",
+            "cancel": "Cancelar"
+        },
+        "reachingOut": {
+            "title": "Contactando a los donantes",
+            "selectOptions": "Seleccionar opciones",
+            "email": "Correo electrónico",
+            "phone": "Teléfono",
+            "directMessaging": "Mensajería directa",
+            "directMail": "Correo directo",
+            "cancel": "Cancelar",
+            "submit": "Enviar"
+        },
+        "agreementTerms": {
+            "title": "Términos del acuerdo",
+            "selectOptions": "Seleccionar opciones",
+            "addAgreement": "Agregar acuerdo",
+            "agreementName": "Nombre del acuerdo",
+            "agreementText": "Texto del acuerdo",
+            "cancel": "Cancelar",
+            "submit": "Enviar",
+            "agreements": {
+                "cancellation": "Cancelación",
+                "cancellationText": "Acepto aportar la cantidad elegida de forma recurrente hasta que cancele mi apoyo",
+                "invoice": "Factura",
+                "invoiceText": "Autorizo el cargo del importe elegido en mi cuenta",
+                "recurring": "Recurrente",
+                "recurringText": "Esta es una donación que se realiza regularmente y brinda apoyo continuo a nuestra causa"
+            }
+        },
+        "welcomeEmail": {
+            "title": "Correo de bienvenida",
+            "modifyText": "Modificar texto",
+            "cancel": "Cancelar",
+            "submit": "Enviar",
+            "emailTemplate": "<div>Estimado/a ##FIRST_NAME##,</div><div><br></div><div>Gracias por inscribirte en las donaciones regulares y unirte a nuestra comunidad de colaboradores. Tu compromiso con nuestra causa es profundamente apreciado y tiene un impacto significativo en nuestra misión. Cada contribución nos ayuda a continuar con el trabajo vital que realizamos y, con tu apoyo, estamos capacitados para lograr una diferencia duradera en las vidas de quienes servimos.</div><div><br></div><div>Tu generosidad no solo impulsa nuestros proyectos en curso, sino que también inspira a otros a unirse a nuestros esfuerzos. Prometemos mantenerte informado sobre cómo se están utilizando tus donaciones y el progreso que estamos logrando hacia nuestras metas compartidas.</div><div><br></div><div>Una vez más, gracias por tu dedicación y confianza. Si tienes alguna pregunta o deseas más información sobre nuestros programas, no dudes en ponerte en contacto.</div><div><br></div><div>Con sincero agradecimiento,</div><div><br></div><div>Mi caridad importante&nbsp;</div>"
+        }
+    }
+}

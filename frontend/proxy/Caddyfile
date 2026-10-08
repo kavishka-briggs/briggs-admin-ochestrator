@@ -1,0 +1,49 @@
+{
+	# We terminate plain HTTP locally; no automatic HTTPS for a dev proxy.
+	auto_https off
+}
+
+:8080 {
+	# --- CORS preflight (OPTIONS) ---
+	# Answer preflight directly so the browser is satisfied before the real request.
+	@preflight method OPTIONS
+	handle @preflight {
+		header {
+			# Reflect the calling origin so credentialed (cookie/Authorization) requests work.
+			Access-Control-Allow-Origin "{http.request.header.Origin}"
+			Access-Control-Allow-Methods "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+			Access-Control-Allow-Headers "Authorization, Content-Type, Accept, Origin, X-Requested-With"
+			Access-Control-Allow-Credentials "true"
+			Access-Control-Max-Age "3600"
+			# Never let a cached response leak the wrong Allow-Origin.
+			Vary "Origin"
+		}
+		respond 204
+	}
+
+	# --- Everything else is proxied to the real gateway ---
+	handle {
+		reverse_proxy {$GATEWAY_UPSTREAM} {
+			# Route correctly on the upstream (also drives TLS SNI).
+			header_up Host {$GATEWAY_HOST}
+
+			# Strip any CORS headers the upstream may already send, so we don't
+			# end up with duplicated/conflicting Access-Control-* headers.
+			header_down -Access-Control-Allow-Origin
+			header_down -Access-Control-Allow-Methods
+			header_down -Access-Control-Allow-Headers
+			header_down -Access-Control-Allow-Credentials
+			header_down -Access-Control-Expose-Headers
+		}
+
+		# Inject our own permissive CORS headers on the proxied response.
+		header {
+			Access-Control-Allow-Origin "{http.request.header.Origin}"
+			Access-Control-Allow-Methods "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+			Access-Control-Allow-Headers "Authorization, Content-Type, Accept, Origin, X-Requested-With"
+			Access-Control-Allow-Credentials "true"
+			Access-Control-Expose-Headers "Content-Length, Content-Type"
+			Vary "Origin"
+		}
+	}
+}

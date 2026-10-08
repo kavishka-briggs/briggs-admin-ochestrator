@@ -1,0 +1,90 @@
+{
+    "module_projectBasic": {
+        "project_page": {
+            "date": "Date",
+            "crewMember": "Crew Member",
+            "loggedInOut": "Logged In / Logged Out",
+            "score": "Score",
+            "shiftEfficiency": "Shift Efficiency",
+            "scorePerHour": "score per hour",
+            "shifts": "Shifts",
+            "allProjects": "All Projects",
+            "projectDetails": "Project Details",
+            "exportResults": "Export Results",
+            "previewProject": "Preview Project",
+            "allCrewMembers": "All Crew Members",
+            "search": "Search",
+            "noCrewMembersFound": "No crew members found"
+        },
+        "all_projects_page": {
+            "title": "All Projects",
+            "searchPlaceholder": "Search projects...",
+            "projectName": "Project Name",
+            "projectCode": "Project Code",
+            "campaignCode": "Campaign Code",
+            "domainCode": "Domain Code",
+            "quickActions": "Quick Actions",
+            "shifts": "Shifts",
+            "forms": "Forms"
+        },
+        "export_results": {
+            "title": "Export Results",
+            "exportPeriod": "Export Period",
+            "cancel": "Cancel",
+            "export": "Export",
+            "viewExportHistory": "View Export History",
+            "description": "View and manage your export results",
+            "close": "Close",
+            "exportSoon": "Your export will be ready soon"
+        },
+        "exportHistory": {
+            "title": "Export History",
+            "results": "results",
+            "exportPeriod": "Export Period",
+            "template": "Template",
+            "download": "Download CSV",
+            "downloadExpired": "Download Expired",
+            "ERROR_MESSAGE_EXPORT_FAILED": "Failed to generate export download link. Please try again later."
+        },
+        "previewModal": {
+            "title": "Form Preview",
+            "context": "Context",
+            "contextDescription": "Select values to preview the form.",
+            "resetContext": "Reset context",
+            "location": "Location",
+            "channel": "Channel",
+            "domain": "Domain",
+            "office": "Office",
+            "autoUpdateInfo": "The form preview will update automatically based on the selected context values.",
+            "formVersion": "Form Version",
+            "selectOption": "Select...",
+            "noOptions": "No options available",
+            "noLocations": "No locations available",
+            "published": "Published",
+            "searchLocation": "Search location...",
+            "projectResult": "Project Result",
+            "errorLoadContextDetails": "Failed to load context details. Please try again.",
+            "errorLoadLocationContext": "Failed to load location context. Please try again.",
+            "errorLoadAgencyOptions": "Failed to load agency options. Please try again.",
+            "errorLoadOfficeOptions": "Failed to load office options. Please try again.",
+            "errorLoadProjectResults": "Failed to load project results. Please try again.",
+            "errorLoadDomainProjects": "Failed to load domain projects. Please try again.",
+            "errorSearchLocations": "Failed to search locations. Please try again."
+        },
+        "project_forms_page": {
+            "pageTitle": "{{name}} - Forms",
+            "projects": "Projects",
+            "forms": "Forms",
+            "selectForm": "Select Form",
+            "noFormsFound": "No forms found.",
+            "newVersion": "New Version",
+            "description": "Manage versions of the selected form. You can preview or publish a version to make it active.",
+            "version": "Version",
+            "createdAt": "Created At",
+            "published": "Published",
+            "actions": "Actions",
+            "preview": "Preview",
+            "publish": "Publish"
+        }
+    }
+}

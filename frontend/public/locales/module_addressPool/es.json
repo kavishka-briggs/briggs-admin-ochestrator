@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Gestión de direcciones",
+      "breadcrumb-current": "Gestionar audiencia",
+      "title": "Paso 1 de 4: Elegir origen de direcciones",
+      "subtitle": "Elige por dónde quieres empezar. Puedes usar un conjunto de direcciones predefinido o subir el tuyo.",
+      "continue": "Continuar",
+      "error-templates": "Algo salió mal al cargar las plantillas.",
+      "error-projects": "Algo salió mal al cargar los proyectos.",
+      "error-submit": "Algo salió mal al crear el conjunto de direcciones.",
+      "source": {
+        "title": "Seleccionar origen de direcciones",
+        "template": {
+          "title": "Usar plantilla inicial",
+          "description": "Comienza desde un conjunto de direcciones predefinido.",
+          "label": "Plantilla",
+          "available": "{{value}} direcciones disponibles"
+        },
+        "upload": {
+          "title": "Subir tus propias direcciones",
+          "description": "Sube un archivo CSV con direcciones. Las direcciones coincidentes se usarán para crear tu conjunto de direcciones."
+        }
+      },
+      "templates": {
+        "all": "Todas las direcciones",
+        "residential": "Residencial",
+        "offices": "Oficinas"
+      },
+      "upload": {
+        "drag-drop": "Arrastra y suelta tu CSV aquí",
+        "or": "o",
+        "browse": "Explorar archivos",
+        "replace": "Reemplazar archivo",
+        "csv-only": "Solo CSV"
+      },
+      "details": {
+        "title": "Detalles",
+        "name": "Nombre",
+        "name-placeholder": "Introduce el nombre del conjunto de direcciones",
+        "project": "Proyecto",
+        "project-placeholder": "Selecciona un proyecto",
+        "project-loading": "Cargando proyectos...",
+        "remarks": "Observaciones",
+        "remarks-placeholder": "Añade observaciones (opcional)"
+      },
+      "source-change": {
+        "title": "¿Cambiar la fuente de direcciones?",
+        "upload-selected": "Ya ha subido un archivo CSV.",
+        "template-selected": "Ya ha seleccionado una plantilla inicial.",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Gestión de direcciones",
+      "breadcrumb-current": "Filtrar áreas",
+      "title": "Paso 2 de 4: Filtrar áreas",
+      "subtitle": "Elige filtros para reducir tu conjunto de direcciones.",
+      "select-category": "Seleccionar categoría de filtro",
+      "filters-in-category": "Filtros en esta categoría",
+      "reset": "Restablecer",
+      "loading": "Cargando filtros...",
+      "no-filters": "No hay filtros disponibles para esta categoría.",
+      "error": "Algo salió mal al cargar las categorías de filtros.",
+      "invalid-batch-id": "El enlace de este conjunto de direcciones no es válido o ha caducado.",
+      "error-list": "Algo salió mal al cargar las direcciones filtradas.",
+      "working-set": {
+        "title": "Resumen del conjunto de trabajo",
+        "total-addresses": "Total de direcciones",
+        "included": "Direcciones incluidas",
+        "included-areas": "Áreas incluidas"
+      },
+      "neighbourhood-list": {
+        "title": "Resumen de barrios",
+        "subtitle": "Número de direcciones por barrio.",
+        "column-neighbourhood": "Barrio",
+        "column-total": "Total de direcciones",
+        "column-included": "Incluido",
+        "column-excluded": "Excluido",
+        "no-results": "No se encontraron barrios."
+      },
+      "reset-filters": "Restablecer todos los filtros",
+      "apply-filters": "Aplicar filtros",
+      "finalize": "Finalizar",
+      "finalize-error": {
+        "InvalidRequest": "No se pudo finalizar el conjunto de direcciones porque la solicitud no es válida. Revise los filtros seleccionados e inténtelo de nuevo.",
+        "UnknownFilterCodes": "Algunos filtros seleccionados ya no están disponibles. Restablezca los filtros e inténtelo de nuevo.",
+        "BatchNotFound": "No se pudo encontrar este conjunto de direcciones. Vuelva atrás y seleccione el conjunto de direcciones de nuevo.",
+        "BatchFinalized": "Este conjunto de direcciones ya se ha finalizado.",
+        "Unknown": "Se produjo un error al finalizar el conjunto de direcciones."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Gestión de direcciones",
+      "breadcrumb-current": "Resumen del conjunto de direcciones",
+      "title": "Paso 2 de 4: Resumen del conjunto de direcciones",
+      "subtitle": "Revise las direcciones encontradas en su archivo cargado antes de crear el conjunto de direcciones."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Gestión de direcciones",
+      "breadcrumb-current": "Aplicar conjunto de direcciones",
+      "title": "Paso 3 de 4: Aplicar conjunto de direcciones",
+      "subtitle": "Revise los detalles a continuación y elija cómo debe aplicarse este conjunto de direcciones al proyecto seleccionado.",
+      "details": {
+        "title": "Detalles del conjunto de direcciones",
+        "name": "Nombre",
+        "project-name": "Nombre del proyecto",
+        "remarks": "Observaciones"
+      },
+      "options": {
+        "title": "¿Cómo debería aplicarse este conjunto de direcciones?",
+        "replace": {
+          "title": "Reemplazar direcciones del proyecto",
+          "description": "Las direcciones fuera de este conjunto se marcarán como excluidas."
+        },
+        "update": {
+          "title": "Actualizar solo direcciones seleccionadas",
+          "description": "Solo se actualizarán las direcciones de este conjunto. Las demás direcciones no cambiarán."
+        }
+      },
+      "back": "Atrás",
+      "continue": "Continuar",
+      "invalid-batch-id": "El enlace de este conjunto de direcciones no es válido o ha caducado.",
+      "error-loading-summary": "Algo salió mal al cargar el resumen del conjunto de direcciones."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Gestión de direcciones",
+      "breadcrumb-current": "Estado del conjunto de direcciones",
+      "title": "Paso 4 de 4: Estado del conjunto de direcciones",
+      "subtitle": "Ver el estado de tu conjunto de direcciones.",
+      "card-title": "Estado del conjunto de direcciones",
+      "refresh": "Actualizar",
+      "error": "Se produjo un error al obtener el estado del conjunto de direcciones.",
+      "no-data": "Todavía no hay actualizaciones de estado disponibles.",
+      "overall": {
+        "success": "Listo",
+        "failed": "Fallido",
+        "finalized": "Audiencia seleccionada",
+        "processing": "Creando…"
+      },
+      "stages": {
+        "finalized": "Audiencia seleccionada",
+        "processing": "Creando conjunto de direcciones",
+        "success": "Conjunto de direcciones listo",
+        "failed": "Creación fallida"
+      },
+      "detail": {
+        "audience-selected": "Su audiencia objetivo y filtros han sido confirmados",
+        "ready": "Su conjunto de direcciones ha sido creado y está listo para usar",
+        "processed": "Generación del conjunto de direcciones completada",
+        "in-progress": "Su conjunto de direcciones está siendo creado…",
+        "failed": "Su conjunto de direcciones no pudo ser creado."
+      }
+    }
+  }
+}

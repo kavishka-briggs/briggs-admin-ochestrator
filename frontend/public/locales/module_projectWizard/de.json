@@ -1,0 +1,115 @@
+{
+    "module_projectWizard": {
+        "backBtn": "Zurück",
+        "getStartedBtn": "Loslegen",
+        "skipBtn": "Überspringen, ich richte das Projekt später ein",
+        "projectCreatingPage": {
+            "launchingInJustAMoment": "Einen Moment bitte, wir starten gleich",
+            "yourProjectIsBeingSetup": "Ihr Projekt wird eingerichtet",
+            "logout": "Abmelden"
+        },
+        "amountsInput": {
+            "add": "Hinzufügen"
+        },
+        "overview": {
+            "heading": "Projekt einrichten",
+            "description": "Das dauert nur 5 Minuten",
+            "projectSettings": {
+                "projectInfo": "Projektinfo & SEPA",
+                "projectInfoDescription": "Fügen Sie Ihren Projektnamen, Kundeninformationen und Zahlungsdetails hinzu.",
+                "donationSettings": "Spendeneinstellungen",
+                "donationSettingsDescription": "Legen Sie Spendenbeträge, Währung und Spenderregeln fest.",
+                "designAndBranding": "Design & Branding",
+                "designAndBrandingDescription": "Aktualisieren Sie das Erscheinungsbild.",
+                "reachingOut": "Spender erreichen",
+                "reachingOutDescription": "Wählen Sie, wie Sie Spender erreichen.",
+                "agreementTerms": "Vereinbarungsbedingungen",
+                "agreementTermsDescription": "Definieren Sie die Bedingungen, die Spender akzeptieren müssen.",
+                "welcomeEmail": "Willkommens-E-Mail",
+                "welcomeEmailDescription": "Bearbeiten Sie die E-Mail, die nach der Anmeldung eines Spenders gesendet wird."
+            }
+        },
+        "projectInfo": {
+            "title": "Projektinfo & SEPA",
+            "cancelLabel": "Abbrechen",
+            "submitLabel": "Absenden",
+            "project": "Projekt",
+            "projectName": "Projektname",
+            "projectNamePlaceholder": "Mein Projekt",
+            "client": "Kunde",
+            "clientPlaceholder": "Meine wichtige Wohltätigkeitsorganisation",
+            "language": "Sprache",
+            "sepa": "SEPA",
+            "creditorAddress": "Gläubigeradresse",
+            "creditorAddressNamePlaceholder": "Name",
+            "creditorAddressLinePlaceholder": "Adresszeile",
+            "creditorAddressCityPlaceholder": "Stadt",
+            "creditorAddressPostalCodePlaceholder": "Postleitzahl",
+            "creditorAddressCountryPlaceholder": "Land",
+            "creatorIDSEPA": "Ersteller-ID (SEPA)",
+            "directDebitStatement": "Lastschriftvermerk",
+            "languageDropDown": {
+                "dutch": "Niederländisch",
+                "english": "Englisch",
+                "french": "Französisch",
+                "german": "Deutsch",
+                "italian": "Italienisch",
+                "portuguese": "Portugiesisch",
+                "spanish": "Spanisch"
+            }
+        },
+        "donationSettings": {
+            "donationParameters": "Spendenparameter",
+            "currency": "Währung",
+            "amounts": "Beträge",
+            "allowFreeInput": "Freie Eingabe erlauben",
+            "minimumDonationValue": "Mindestspendenwert",
+            "minimumDonorAge": "Mindestalter des Spenders",
+            "cancel": "Abbrechen",
+            "submit": "Absenden"
+        },
+        "designAndBranding": {
+            "heading": "Design & Branding",
+            "description": "Aktualisieren Sie das Erscheinungsbild.",
+            "mainBrandColor": "Hauptmarkenfarbe",
+            "projectStyle": "Projektstil",
+            "brandLogo": "Markenlogo",
+            "submit": "Absenden",
+            "cancel": "Abbrechen"
+        },
+        "reachingOut": {
+            "title": "Spender erreichen",
+            "selectOptions": "Optionen auswählen",
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "directMessaging": "Direktnachricht",
+            "directMail": "Direktmail",
+            "cancel": "Abbrechen",
+            "submit": "Absenden"
+        },
+        "agreementTerms": {
+            "title": "Vereinbarungsbedingungen",
+            "selectOptions": "Optionen auswählen",
+            "addAgreement": "Vereinbarung hinzufügen",
+            "agreementName": "Vereinbarungsname",
+            "agreementText": "Vereinbarungstext",
+            "cancel": "Abbrechen",
+            "submit": "Absenden",
+            "agreements": {
+                "cancellation": "Stornierung",
+                "cancellationText": "Ich erkläre mich einverstanden, den gewählten Betrag regelmäßig zu spenden, bis ich meine Unterstützung kündige",
+                "invoice": "Rechnung",
+                "invoiceText": "Ich ermächtige, dass der gewählte Betrag von meinem Konto abgebucht wird",
+                "recurring": "Wiederkehrend",
+                "recurringText": "Dies ist eine regelmäßige Spende, die unsere Sache kontinuierlich unterstützt"
+            }
+        },
+        "welcomeEmail": {
+            "title": "Willkommens-E-Mail",
+            "modifyText": "Text bearbeiten",
+            "cancel": "Abbrechen",
+            "submit": "Absenden",
+            "emailTemplate": "<div>Liebe/r ##FIRST_NAME##,</div><div><br></div><div>Vielen Dank, dass Sie sich für regelmäßiges Spenden angemeldet und unserer Gemeinschaft von Unterstützern angeschlossen haben. Ihr Engagement für unsere Sache wird sehr geschätzt und hat einen bedeutenden Einfluss auf unsere Mission. Jeder Beitrag hilft uns, unsere wichtige Arbeit fortzusetzen, und mit Ihrer Unterstützung können wir einen nachhaltigen Unterschied im Leben derjenigen machen, denen wir helfen.</div><div><br></div><div>Ihre Großzügigkeit treibt nicht nur unsere laufenden Projekte voran, sondern inspiriert auch andere, sich unseren Bemühungen anzuschließen. Wir versprechen, Sie darüber zu informieren, wie Ihre Spenden verwendet werden und welche Fortschritte wir auf dem Weg zu unseren gemeinsamen Zielen machen.</div><div><br></div><div>Nochmals vielen Dank für Ihr Engagement und Ihr Vertrauen. Wenn Sie Fragen haben oder weitere Informationen zu unseren Programmen wünschen, können Sie sich gerne an uns wenden.</div><div><br></div><div>Mit herzlichem Dank,</div><div><br></div><div>Meine wichtige Wohltätigkeitsorganisation&nbsp;</div>"
+        }
+    }
+}

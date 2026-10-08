@@ -1,0 +1,160 @@
+{
+  "module_address_pool": {
+    "address-page": {
+      "title": "Address Management"
+    },
+    "create-address-set": {
+      "breadcrumb-parent": "Gestione indirizzi",
+      "breadcrumb-current": "Gestisci pubblico",
+      "title": "Passo 1 di 4: Scegli l'origine degli indirizzi",
+      "subtitle": "Scegli da dove iniziare. Puoi utilizzare un set di indirizzi predefinito o caricare il tuo.",
+      "continue": "Continua",
+      "error-templates": "Si è verificato un errore durante il caricamento dei modelli.",
+      "error-projects": "Si è verificato un errore durante il caricamento dei progetti.",
+      "error-submit": "Si è verificato un errore durante la creazione del set di indirizzi.",
+      "source": {
+        "title": "Seleziona origine indirizzi",
+        "template": {
+          "title": "Usa modello iniziale",
+          "description": "Parti da un set di indirizzi predefinito.",
+          "label": "Modello",
+          "available": "{{value}} indirizzi disponibili"
+        },
+        "upload": {
+          "title": "Carica i tuoi indirizzi",
+          "description": "Carica un file CSV contenente indirizzi. Gli indirizzi corrispondenti verranno usati per creare il tuo set."
+        }
+      },
+      "templates": {
+        "all": "Tutti gli indirizzi",
+        "residential": "Residenziale",
+        "offices": "Uffici"
+      },
+      "upload": {
+        "drag-drop": "Trascina qui il tuo CSV",
+        "or": "oppure",
+        "browse": "Sfoglia file",
+        "replace": "Sostituisci file",
+        "csv-only": "Solo CSV"
+      },
+      "details": {
+        "title": "Dettagli",
+        "name": "Nome",
+        "name-placeholder": "Inserisci il nome del set di indirizzi",
+        "project": "Progetto",
+        "project-placeholder": "Seleziona un progetto",
+        "project-loading": "Caricamento progetti...",
+        "remarks": "Note",
+        "remarks-placeholder": "Aggiungi note (facoltativo)"
+      },
+      "source-change": {
+        "title": "Cambiare origine indirizzi?",
+        "upload-selected": "Hai già caricato un file CSV.",
+        "template-selected": "Hai già selezionato un template iniziale.",
+        "cancel": "Annulla",
+        "confirm": "Conferma"
+      }
+    },
+    "filter-addresses": {
+      "breadcrumb-parent": "Gestione indirizzi",
+      "breadcrumb-current": "Filtra aree",
+      "title": "Passo 2 di 4: Filtra aree",
+      "subtitle": "Scegli i filtri per restringere il tuo set di indirizzi.",
+      "select-category": "Seleziona categoria filtro",
+      "filters-in-category": "Filtri in questa categoria",
+      "reset": "Ripristina",
+      "loading": "Caricamento filtri...",
+      "no-filters": "Nessun filtro disponibile per questa categoria.",
+      "error": "Si è verificato un errore durante il caricamento delle categorie di filtri.",
+      "invalid-batch-id": "Il collegamento a questo set di indirizzi non è valido o è scaduto.",
+      "error-list": "Si è verificato un errore durante il caricamento degli indirizzi filtrati.",
+      "working-set": {
+        "title": "Riepilogo del set di lavoro",
+        "total-addresses": "Totale indirizzi",
+        "included": "Indirizzi inclusi",
+        "included-areas": "Aree incluse"
+      },
+      "neighbourhood-list": {
+        "title": "Riepilogo quartieri",
+        "subtitle": "Numero di indirizzi per quartiere.",
+        "column-neighbourhood": "Quartiere",
+        "column-total": "Totale indirizzi",
+        "column-included": "Incluso",
+        "column-excluded": "Escluso",
+        "no-results": "Nessun quartiere trovato."
+      },
+      "reset-filters": "Ripristina tutti i filtri",
+      "apply-filters": "Applica filtri",
+      "finalize": "Finalizza",
+      "finalize-error": {
+        "InvalidRequest": "Non è stato possibile finalizzare il set di indirizzi perché la richiesta non è valida. Controlla i filtri selezionati e riprova.",
+        "UnknownFilterCodes": "Alcuni filtri selezionati non sono più disponibili. Reimposta i filtri e riprova.",
+        "BatchNotFound": "Questo set di indirizzi non è stato trovato. Torna indietro e seleziona di nuovo il set di indirizzi.",
+        "BatchFinalized": "Questo set di indirizzi è già stato finalizzato.",
+        "Unknown": "Si è verificato un errore durante la finalizzazione del set di indirizzi."
+      }
+    },
+    "address-set-summary": {
+      "breadcrumb-parent": "Gestione indirizzi",
+      "breadcrumb-current": "Riepilogo del set di indirizzi",
+      "title": "Passo 2 di 4: Riepilogo del set di indirizzi",
+      "subtitle": "Controlla gli indirizzi trovati nel tuo file caricato prima di creare il set di indirizzi."
+    },
+    "apply-address-set": {
+      "breadcrumb-parent": "Gestione indirizzi",
+      "breadcrumb-current": "Applica set di indirizzi",
+      "title": "Passo 3 di 4: Applica set di indirizzi",
+      "subtitle": "Rivedi i dettagli qui sotto e scegli come applicare questo set di indirizzi al progetto selezionato.",
+      "details": {
+        "title": "Dettagli del set di indirizzi",
+        "name": "Nome",
+        "project-name": "Nome progetto",
+        "remarks": "Note"
+      },
+      "options": {
+        "title": "Come deve essere applicato questo set di indirizzi?",
+        "replace": {
+          "title": "Sostituisci gli indirizzi del progetto",
+          "description": "Gli indirizzi fuori da questo set saranno contrassegnati come esclusi."
+        },
+        "update": {
+          "title": "Aggiorna solo gli indirizzi selezionati",
+          "description": "Verranno aggiornati solo gli indirizzi di questo set. Gli altri indirizzi restano invariati."
+        }
+      },
+      "back": "Indietro",
+      "continue": "Continua",
+      "invalid-batch-id": "Il collegamento a questo set di indirizzi non è valido o è scaduto.",
+      "error-loading-summary": "Si è verificato un errore durante il caricamento del riepilogo del set di indirizzi."
+    },
+    "address-set-status": {
+      "breadcrumb-parent": "Gestione indirizzi",
+      "breadcrumb-current": "Stato del set di indirizzi",
+      "title": "Passo 4 di 4: Stato del set di indirizzi",
+      "subtitle": "Visualizza lo stato del tuo set di indirizzi.",
+      "card-title": "Stato del set di indirizzi",
+      "refresh": "Aggiorna",
+      "error": "Si è verificato un errore durante il recupero dello stato del set di indirizzi.",
+      "no-data": "Non sono ancora disponibili aggiornamenti di stato.",
+      "overall": {
+        "success": "Pronto",
+        "failed": "Fallito",
+        "finalized": "Pubblico selezionato",
+        "processing": "Creazione…"
+      },
+      "stages": {
+        "finalized": "Pubblico selezionato",
+        "processing": "Creazione del set di indirizzi",
+        "success": "Set di indirizzi pronto",
+        "failed": "Creazione fallita"
+      },
+      "detail": {
+        "audience-selected": "Il tuo pubblico di destinazione e i filtri sono stati confermati",
+        "ready": "Il tuo set di indirizzi è stato creato ed è pronto all'uso",
+        "processed": "Generazione del set di indirizzi completata",
+        "in-progress": "Il tuo set di indirizzi è in fase di creazione…",
+        "failed": "Il set di indirizzi non è stato creato."
+      }
+    }
+  }
+}

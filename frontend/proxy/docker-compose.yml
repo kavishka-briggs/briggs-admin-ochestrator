@@ -1,0 +1,35 @@
+services:
+  gateway-cors-proxy:
+    image: caddy:2-alpine
+    container_name: briggs-gateway-cors-proxy
+    restart: unless-stopped
+    ports:
+      # Host port 8080 -> proxy. This is the URL your frontend talks to.
+      - "8080:8080"
+    environment:
+      # The real gateway (separate origin). Change if needed.
+      GATEWAY_UPSTREAM: "https://gateway.briggsdev.tech"
+      # Host header + TLS SNI used when talking to the upstream gateway.
+      GATEWAY_HOST: "gateway.briggsdev.tech"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+
+  mfe-cors-proxy:
+    image: node:20-alpine
+    container_name: briggs-mfe-cors-proxy
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "mfe-proxy.js"]
+    ports:
+      # Host port 4445 -> dynamic query-param proxy.
+      # Usage from the frontend: http://localhost:4445/?url=<actual-mfe-url>
+      - "4445:4445"
+    environment:
+      PORT: "4445"
+      # Comma-separated host suffixes the proxy is allowed to fetch (SSRF guard).
+      ALLOWED_HOSTS: "briggsdev.tech,briggsandwalker.com"
+      # Virtual-host mapping: <local-suffix>=<real-suffix>. A request whose Host
+      # ends with the local suffix is proxied to the matching real suffix.
+      LOCAL_DOMAIN_MAP: ".briggsdev.local=.briggsdev.tech,.briggsandwalker.local=.briggsandwalker.com"
+    volumes:
+      - ./mfe-proxy.js:/app/mfe-proxy.js:ro
