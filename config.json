@@ -1,6 +1,6 @@
 {
   "plugin_id": "app",
-  "name": "Orchestrator App",
+  "name": "Briggs Admin Orchestrator App",
   "deployment_mode": "container",
   "frontend_port": "3000",
   "backend_port": "8080",

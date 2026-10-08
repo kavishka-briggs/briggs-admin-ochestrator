@@ -19,7 +19,7 @@ All systems have been assessed for criticality in terms of **Availability**, **I
 #### Briggs System Components
 | Component Category | Components | Technology | Environment |
 |-------------------|------------|------------|-------------|
-| **Core Infrastructure** | briggs-orchestrator (Shell), briggsbase (Config), briggs-gateway-api (KrakenD), auth (Keycloak), briggs-modules-authentication (alias: module-authenticator) | React/Vite, .NET 9, KrakenD/Go, Keycloak/Java, React | Dev/Test/Prod |
+| **Core Infrastructure** | briggs-orchestrator (Shell), briggs-admin-ochestrator (Admin Shell), briggsbase (Config), briggs-gateway-api (KrakenD), auth (Keycloak), briggs-modules-authentication (alias: module-authenticator) | React/Vite, .NET 9, KrakenD/Go, Keycloak/Java, React | Dev/Test/Prod |
 | **PTTN Microservices** | pttn-projectsapi, pttn-onboarding-api, pttn-crewapi, pttn-planningapi (docs alias pttn-planning-api), pttn-formsapi (docs alias pttn-forms-api), pttn-authapi | .NET 10 + SQL Server (pttn-planningapi remains .NET 9) | Dev/Test/Prod |
 | **System Components** | clamav-api (Security), cdc-pttn (Integration, .NET 9), cdc-agencysuite (Integration, .NET 10), pttn-address-projection (Address read model), file-upload-api (Processing, .NET 9), field-apis (Field helpers, .NET 10) | clamav-api: .NET 10 + ClamAV; field-apis: .NET 10; cdc-agencysuite / pttn-address-projection: .NET 10; cdc-pttn / file-upload-api: .NET 9; CDC and projection workers use Azure Functions | Dev/Test/Prod |
 | **Kickstarter Modules** | module-onboarding, module-projectwizard, module-dashboardbasic (GitHub: modules-dashboardbasic), module-projectbasic, modules-crewbasic (plugin_id module-crewbasic), modules-forms (plugin_id module-forms) | React + Module Federation | Dev/Test/Prod |
@@ -29,7 +29,7 @@ All systems have been assessed for criticality in terms of **Availability**, **I
 #### Multi-Factor Authentication (MFA) Implementation
 - **Frontend Applications**: All React-based microfrontends use Keycloak for MFA
 - **Authentication Flow**: Keycloak provides centralized 2FA with authenticator apps (Microsoft, Google)
-- **Coverage**: briggs-orchestrator, briggs-modules-authentication, and all frontend modules require MFA
+- **Coverage**: briggs-orchestrator, briggs-admin-ochestrator, briggs-modules-authentication, and all frontend modules require MFA
 - **Backend Services**: Protected via KrakenD gateway authentication (inherits MFA from frontend flow)
 
 #### System Architecture Terminology
@@ -178,7 +178,7 @@ Lockout: After multiple failed attempts
 ### User Activity Logging
 
 #### Web Application Logging
-- **Systems Covered**: briggs-orchestrator and all frontend modules for user interaction logging
+- **Systems Covered**: briggs-orchestrator, briggs-admin-ochestrator, and all frontend modules for user interaction logging
 - **Log Content**: User actions, timestamps, source locations, frontend interactions
 - **Centralized Logging**: briggslogging service provides unified audit trail for user activities
 - **Purpose**: Enable investigation of who performed what actions when and from where
