@@ -1,13 +1,11 @@
-import { lazy, Suspense, useMemo, FC, LazyExoticComponent } from 'react';
+import { lazy, Suspense, FC } from 'react';
 import { Routes, Route } from 'react-router';
 import { RouteURL } from './hooks/useNavigate';
 import OrganizationInvalid from './modules/Auth/OrganizationInvalid';
-import ModulesNotFound from './modules/Auth/ModulesNotFound';
 import SignUpPage from './modules/Onboarding/SignUpPage/SignUpPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import OnboardingPage from './modules/Onboarding/OnboardingPage/OnboardingPage';
 import ProjectsWizard from './modules/ProjectWizard/OnboardingPage';
-import { useDynamicModuleStore } from './store/dynamicModuleStore';
 import ProjectCreatingPage from './modules/ProjectWizard/ProjectCreatingPage';
 import AddressManagement_HeatMap from './modules/AddressManagement/HeatMap';
 import AddressManagement_CreateAddressSet from './modules/AddressManagement/CreateAddressSet';
@@ -26,33 +24,10 @@ const Dashboard = lazy(() => import('./modules/Dashboard/Dashboard'));
 const Crew = lazy(() => import('./modules/Crew/Crew'));
 const AddressManagement = lazy(() => import('./modules/AddressManagement/AddressManagement'));
 
-type LoadableComponent = LazyExoticComponent<FC> | FC;
-
-const pluginHomeMap: Record<string, LoadableComponent> = {
-    'module-quartercompletion': QuarterCompletion_Projects,
-    'module-crewbasic': Crew,
-    'module-dashboardbasic': Dashboard,
-    'module-projectbasic': ProjectsBasic,
-    'module-missioncontrol': MissionControl,
-    'briggs-address-module': AddressManagement,
-};
-
 const Routers: FC = () => {
-    const { modules } = useDynamicModuleStore();
-
-    const HomeComponent = useMemo<LoadableComponent>(() => {
-        const isLoggedIn = localStorage.getItem('isLoggedIn') === "1";
-        if (!isLoggedIn) {
-            return SignUpPage;
-        }
-        const pluginId = modules[0]?.pluginID;
-        if (pluginId) {
-            return pluginHomeMap[pluginId];
-        }
-        else {
-            return ModulesNotFound; // ModulesNotFound will be selected if there are no active plugins/modules for the organization (Check useGetDynamicPlugins.tsx for logic)
-        }
-    }, [modules]);
+    const HomeComponent = localStorage.getItem('isLoggedIn') === "1"
+        ? ProjectsBasic
+        : SignUpPage;
 
     const routes = [
         // Home / wildcard

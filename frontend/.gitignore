@@ -27,3 +27,4 @@ public/modules/
 *.sw?
 .npmrc
 .env
+pnpm-lock.yaml
