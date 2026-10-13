@@ -35,7 +35,7 @@ Modules that provide essential functionality that is enabled by default for new 
 Extended functionality modules that can be enabled per domain.
 
 **Note**: Microfrontend modules (React-based frontend modules using module federation) are distributed across multiple categories:
-- **Core Infrastructure**: `briggs-orchestrator`, `briggs-orchestrator-mobile`, `briggs-modules-authentication` (catalog alias: `module-authenticator`)
+- **Core Infrastructure**: `briggs-admin-ochestrator`, `briggs-orchestrator-mobile`, `briggs-modules-authentication` (catalog alias: `module-authenticator`)
 - **Kickstarter Modules**: `module-onboarding`, `module-projectwizard`, `module-dashboardbasic` (GitHub: `modules-dashboardbasic`), `module-projectbasic`, `modules-crewbasic` (plugin_id `module-crewbasic`)
 - **Modules**: `modules-quartercompletion` (monorepo; plugin_id `module-quartercompletion`)
 
@@ -79,7 +79,7 @@ Extended functionality modules that can be enabled per domain.
   - Multi-environment deployment (dev, eu)
   - CORS configuration for microfrontend support
 
-#### `briggs-orchestrator`
+#### `briggs-admin-ochestrator`
 - **Type**: Microfrontend Shell
 - **Technology**: React + Vite + Module Federation
 - **Purpose**: Main application shell that hosts and coordinates all microfrontends

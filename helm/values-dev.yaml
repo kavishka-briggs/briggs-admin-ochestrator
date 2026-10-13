@@ -1,20 +1,20 @@
 hostname: https://app.briggsdev.tech/
 
-name: briggs-orchestrator
+name: briggs-admin-ochestrator
 service:
-  name: briggs-orchestrator-service
+  name: briggs-admin-ochestrator-service
   type: ClusterIP
   port: 80
 ingress:
-  name: briggs-orchestrator-ingress
+  name: briggs-admin-ochestrator-ingress
   tlssecret: ingress-tls
   className: "nginx"
   hosts:
     - "app.briggsdev.tech"
-namespace: briggs-orchestrator
+namespace: briggs-admin-ochestrator
 
 imageTag: development
-containerRegistry: briggswalkerdevacr.azurecr.io/briggs-orchestrator-dev
+containerRegistry: briggswalkerdevacr.azurecr.io/briggs-admin-ochestrator-dev
 
 #RequestMemory: "600Mi"
 #RequestCPU: "50m"

@@ -6,7 +6,7 @@ const initializeTracker = (): Tracker => {
     const token = localStorage.getItem("token") || "";
     const trackerOptions: TrackerOptions = {
         apiSecret: "API_SECRET",
-        microfrontend: "briggs-orchestrator",
+        microfrontend: "briggs-admin-ochestrator",
         sessionId: generateSessionID(),
         token: token,
         gatewayURL: GATEWAY_URL,
@@ -14,7 +14,7 @@ const initializeTracker = (): Tracker => {
     return new Tracker(trackerOptions);
 };
 
-const logger = (eventName: EventName, eventProperties: EventProperties, microfrontend: string = "briggs-orchestrator"): void => {
+const logger = (eventName: EventName, eventProperties: EventProperties, microfrontend: string = "briggs-admin-ochestrator"): void => {
     const tracker = initializeTracker();
     tracker.logEvent(eventName, eventProperties, microfrontend);
 };

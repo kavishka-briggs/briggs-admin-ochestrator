@@ -83,7 +83,7 @@ cp -r templates/deployment/.github/workflows/ ./.github/workflows/
 # No deployment workflows needed - documentation only
 ```
 
-**Note:** Skip deployment workflows for `briggs-orchestrator`, `briggsdesignsystem`, `auth`, `clamav-api`, `briggs-gateway-api` - they use custom deployment.
+**Note:** Skip deployment workflows for `briggs-admin-ochestrator`, `briggsdesignsystem`, `auth`, `clamav-api`, `briggs-gateway-api` - they use custom deployment.
 
 ### 4. Choose your development path
 
